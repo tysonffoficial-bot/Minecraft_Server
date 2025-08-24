@@ -871,3 +871,190 @@ Caused by: java.lang.NoSuchMethodException: net.minecraft.resources.ResourceLoca
 [17:35:22] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lightning
 [17:36:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
 [17:40:09] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /give * emerald_ore 2000
+[17:41:44] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /effect clear @e minecraft:invisibility
+[17:41:44] [Server thread/INFO]: [Ruby_HoshinoSan: Removed effect Invisibility from 453 targets]
+[17:41:49] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /effect clear @e minecraft:invisibility
+[17:41:49] [Server thread/INFO]: [Ruby_HoshinoSan: Removed effect Invisibility from 459 targets]
+[17:41:55] [Server thread/INFO]: Ruby_HoshinoSan has made the advancement [What a Deal!]
+[17:42:13] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /feed
+[17:43:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[17:43:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ec
+[17:44:21] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 3
+[17:44:27] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[17:45:27] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /clear
+[17:45:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /break
+[17:45:43] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /break
+[17:45:44] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /break
+[17:45:45] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /break
+[17:45:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /break 100
+[17:45:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /break
+[17:45:54] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /break
+[17:45:54] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /break
+[17:48:23] [Server thread/ERROR]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.NewChunkHolder] Failed to save entity data (58,28) in world 'world'
+net.minecraft.ReportedException: Saving entity NBT
+	at net.minecraft.world.entity.Entity.saveWithoutId(Entity.java:2530) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.saveAsPassenger(Entity.java:2370) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.saveAsPassenger(Entity.java:2357) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.save(Entity.java:2377) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.level.entity.ChunkEntitySlices.saveEntityChunk0(ChunkEntitySlices.java:120) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.level.entity.ChunkEntitySlices.saveEntityChunk(ChunkEntitySlices.java:98) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.level.entity.ChunkEntitySlices.save(ChunkEntitySlices.java:150) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.NewChunkHolder.saveEntities(NewChunkHolder.java:1805) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.NewChunkHolder.save(NewChunkHolder.java:1727) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager.autoSave(ChunkHolderManager.java:247) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:430) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:418) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:499) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:776) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1724) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalStateException: Value must be within range [1;99]: 100
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81) ~[datafixerupper-8.0.16.jar:?]
+	at net.minecraft.world.item.ItemStack.save(ItemStack.java:606) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.item.ItemEntity.addAdditionalSaveData(ItemEntity.java:383) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.addAdditionalSaveData(Entity.java:2700) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.saveWithoutId(Entity.java:2482) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	... 18 more
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Loading the config.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded config.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Loading the BlockList.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded BlockList.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Loading the HeadMap.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded HeadMap.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Loading the Data.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Data.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantments.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantments.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Loading the GKitz.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded GKitz.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Loading the Messages.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Messages.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Loading the Enchantment-Types.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Enchantment-Types.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Loading the Tinker.yml
+[17:48:55] [Server thread/INFO]: [CrazyEnchantments] Successfully loaded Tinker.yml
+[17:48:55] [Server thread/INFO]: [CUBECRAFT VULCAN]: === CrazyEnchantment Hook Status ===
+[17:48:55] [Server thread/INFO]: [CUBECRAFT VULCAN]: GRIEF_PREVENTION NOT FOUND
+[17:48:55] [Server thread/INFO]: [CUBECRAFT VULCAN]: VAULT FOUND
+[17:48:55] [Server thread/INFO]: [CUBECRAFT VULCAN]: SUPERIORSKYBLOCK NOT FOUND
+[17:48:55] [Server thread/INFO]: [CUBECRAFT VULCAN]: PLOT_SQUARED NOT FOUND
+[17:48:55] [Server thread/INFO]: [CUBECRAFT VULCAN]: FACTIONS_UUID NOT FOUND
+[17:48:55] [Server thread/INFO]: [CUBECRAFT VULCAN]: WORLDGUARD FOUND
+[17:48:55] [Server thread/INFO]: [CUBECRAFT VULCAN]: TOWNYADVANCED NOT FOUND
+[17:48:55] [Server thread/INFO]: [CUBECRAFT VULCAN]: WORLDEDIT FOUND
+[17:48:55] [Server thread/INFO]: [CUBECRAFT VULCAN]: LANDS NOT FOUND
+[17:48:55] [Server thread/INFO]: [CUBECRAFT VULCAN]: MCMMO NOT FOUND
+[17:48:55] [Server thread/INFO]: [CUBECRAFT VULCAN]: ORAXEN NOT FOUND
+[17:48:55] [Server thread/INFO]: [CUBECRAFT VULCAN]: You have reloaded the Config.yml
+[17:49:01] [Server thread/INFO]: [CUBECRAFT VULCAN]: Only players can use this command.
+[17:49:09] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /craftableinvframes:iframe
+[17:49:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce bottle Ruby_HoshinoSan
+[17:49:54] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce bottle Ruby_HoshinoSan 1
+[17:50:01] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce bottle Ruby_HoshinoSan 100
+[17:50:09] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce bottle Ruby_HoshinoSan 1000000000
+[17:50:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce bottle Ruby_HoshinoSan 10000000000000000
+[17:50:21] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to CrazyEnchantments v2.5.2
+java.lang.NumberFormatException: For input string: "10000000000000000"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:662) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:778) ~[?:?]
+	at CrazyEnchantments-2.5.2.jar/com.badbones69.crazyenchantments.paper.api.builders.types.tinkerer.TinkererManager.useExperience(TinkererManager.java:53) ~[CrazyEnchantments-2.5.2.jar:?]
+	at CrazyEnchantments-2.5.2.jar/com.badbones69.crazyenchantments.paper.api.builders.types.tinkerer.TinkererMenu$TinkererListener.onExperienceUse(TinkererMenu.java:71) ~[CrazyEnchantments-2.5.2.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:559) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:554) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:550) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItem(ServerGamePacketListenerImpl.java:2014) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:48) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemPacket.handle(ServerboundUseItemPacket.java:9) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:50:28] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce bottle Ruby_HoshinoSan 10000000000000000
+[17:50:31] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to CrazyEnchantments v2.5.2
+java.lang.NumberFormatException: For input string: "10000000000000000"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:662) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:778) ~[?:?]
+	at CrazyEnchantments-2.5.2.jar/com.badbones69.crazyenchantments.paper.api.builders.types.tinkerer.TinkererManager.useExperience(TinkererManager.java:53) ~[CrazyEnchantments-2.5.2.jar:?]
+	at CrazyEnchantments-2.5.2.jar/com.badbones69.crazyenchantments.paper.api.builders.types.tinkerer.TinkererMenu$TinkererListener.onExperienceUse(TinkererMenu.java:71) ~[CrazyEnchantments-2.5.2.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:481) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1940) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:45) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:10) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:50:35] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce bottle Ruby_HoshinoSan 1000000000000
+[17:50:36] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to CrazyEnchantments v2.5.2
+java.lang.NumberFormatException: For input string: "1000000000000"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:662) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:778) ~[?:?]
+	at CrazyEnchantments-2.5.2.jar/com.badbones69.crazyenchantments.paper.api.builders.types.tinkerer.TinkererManager.useExperience(TinkererManager.java:53) ~[CrazyEnchantments-2.5.2.jar:?]
+	at CrazyEnchantments-2.5.2.jar/com.badbones69.crazyenchantments.paper.api.builders.types.tinkerer.TinkererMenu$TinkererListener.onExperienceUse(TinkererMenu.java:71) ~[CrazyEnchantments-2.5.2.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:481) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1940) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:45) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:10) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:50:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce bottle Ruby_HoshinoSan 100000000
