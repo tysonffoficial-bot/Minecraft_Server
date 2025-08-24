@@ -1,0 +1,32 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.126.221.222
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1755647307759
+  login: 1755647133375
+  kits:
+    color: 1755365403288
+money: '30000'
+last-account-name: Ruby_HoshinoSan
+logoutlocation:
+  world: 0b5443e8-281b-4691-94ac-9bf342f6f7e2
+  world-name: world
+  x: 1026.0261022230477
+  y: 121.0625
+  z: 164.68388470247265
+  yaw: -26.09999656677246
+  pitch: 10.649977684020996

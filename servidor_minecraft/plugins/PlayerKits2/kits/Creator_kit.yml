@@ -1,0 +1,140 @@
+cooldown: 6600
+one_time: false
+auto_armor: true
+permission_required: true
+clear_inventory: false
+save_original_items: true
+allow_placeholders_on_original_items: false
+display:
+  default:
+    id: NETHERITE_SWORD
+    name: '&b&l%kit_name% &b&l&oKIT'
+    amount: 1
+    lore:
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cNo Tienes Permisos Para Reclamar'
+    - '&cEste Kit'
+  cooldown:
+    id: BARRIER
+    name: '&c&l%kit_name%'
+    amount: 1
+    lore:
+    - '&cTu Necesitas Esperar &7%time%'
+    - '&cPara Reclamar Este Kit'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  one_time_requirements:
+    id: NETHERITE_SWORD
+    name: '&4&lCREATOR &f&lSWORD'
+    amount: 1
+    enchants:
+    - LOOTING;10
+    - SHARPNESS;25
+    - UNBREAKING;20
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"CREATOR ","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"dark_red"},{"text":"SWORD","bold":true,"italic":false,"color":"white"}]}'
+        enchants:
+          minecraft:looting: 10
+          minecraft:sharpness: 25
+          minecraft:unbreaking: 20
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: NETHERITE_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"CREATOR ","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"dark_red"},{"text":"HAX","bold":true,"italic":false,"color":"white"}]}'
+        enchants:
+          minecraft:looting: 10
+          minecraft:sharpness: 10
+          minecraft:unbreaking: 20
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: NETHERITE_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:blast_protection: 15
+          minecraft:projectile_protection: 15
+          minecraft:protection: 15
+          minecraft:respiration: 5
+          minecraft:unbreaking: 20
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: NETHERITE_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:blast_protection: 15
+          minecraft:projectile_protection: 15
+          minecraft:protection: 15
+          minecraft:unbreaking: 20
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: NETHERITE_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:blast_protection: 15
+          minecraft:projectile_protection: 15
+          minecraft:protection: 15
+          minecraft:unbreaking: 20
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: NETHERITE_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:blast_protection: 15
+          minecraft:projectile_protection: 15
+          minecraft:protection: 15
+          minecraft:unbreaking: 20
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: SHIELD
+      meta:
+        ==: ItemMeta
+        meta-type: SHIELD
+        enchants:
+          minecraft:unbreaking: 20
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

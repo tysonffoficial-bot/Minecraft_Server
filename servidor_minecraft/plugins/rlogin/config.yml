@@ -1,0 +1,50 @@
+auto_login:
+  enabled: true # ip autologin
+
+discord:
+  enabled: false # 2fa
+  bot_token: YOUR_BOT_TOKEN_HERE
+
+messages:
+  register_message: '&cПожалуйста, используйте /register для начала игры.'
+  login_message: '&cПожалуйста, используйте /login для входа.'
+  register_usage: '&cИспользование: /register <пароль> <подтверждение_пароля>'
+  login_usage: '&cИспользование: /login <пароль>'
+  already_registered: '&cВы уже зарегистрированы. Используйте /login <пароль>.'
+  passwords_do_not_match: '&cПароли не совпадают. Попробуйте снова.'
+  registration_successful: '&aВы успешно зарегистрировались. Войдите с помощью /login
+    <пароль>.'
+  not_registered: '&cВы не зарегистрированы. Используйте /register <пароль> <подтверждение_пароля>.'
+  incorrect_password: '&cНеверный пароль.'
+  login_successful: '&aВы успешно вошли.'
+  auto_login: '&aВы автоматически вошли.'
+  command_blocked: '&cВы должны войти, чтобы использовать команды, кроме /login, /l,
+    /register, /reg, /changepass, /add2fa, /remove2fa.'
+  changepass_usage: '&cИспользование: /changepass <старый_пароль> <новый_пароль>'
+  changepass_successful: '&aПароль успешно изменён.'
+  rlchangepass_usage: '&cИспользование: /rlchangepass <игрок> <новый_пароль>'
+  rlchangepass_no_permission: '&cУ вас нет прав на эту команду.'
+  rlchangepass_player_not_found: '&cИгрок не найден или не зарегистрирован.'
+  rlchangepass_successful: '&aПароль для {0} успешно изменён.'
+  rlogin_usage: '&cИспользование: /rlogin reload'
+  rlogin_no_permission: '&cУ вас нет прав на эту команду.'
+  rlogin_reload_successful: '&aКонфигурация Rlogin успешно перезагружена.'
+  rlogin_reload_failed: '&cНе удалось перезагрузить конфигурацию Rlogin.'
+  2fa_disabled: '&cДвухфакторная аутентификация отключена на сервере.'
+  add2fa_usage: '&cИспользование: /add2fa'
+  add2fa_code_sent: '&aВам отправлен код 2FA. Отправьте его боту в Discord: %code%'
+  add2fa_already_enabled: '&c2FA уже включена для вашего аккаунта.'
+  add2fa_successful: '&a2FA успешно включена.'
+  remove2fa_usage: '&cИспользование: /remove2fa <код>'
+  remove2fa_not_enabled: '&c2FA не включена для вашего аккаунта.'
+  remove2fa_code_sent: '&aОтправьте /remove2fa в Discord-бот, чтобы получить код,
+    затем используйте /remove2fa <код> в игре.'
+  remove2fa_invalid_code: '&cНеверный или истёкший код для отключения 2FA.'
+  remove2fa_successful: '&a2FA успешно отключена.'
+  discord_code_invalid: '&cНеверный или истёкший код 2FA.'
+  discord_remove2fa_code_sent: 'Код для отключения 2FA для %player%: %code%. Введите
+    /remove2fa <код> в игре.'
+  discord_login_request: 'Зафиксирован вход на ваш аккаунт %player% с IP %ip% (%country_flag%).
+    Подтвердите действие:'
+  login_2fa_pending: '&cПодтвердите вход через 2FA в Discord.'
+  login_2fa_rejected: '&cВход отклонён через Discord.'
