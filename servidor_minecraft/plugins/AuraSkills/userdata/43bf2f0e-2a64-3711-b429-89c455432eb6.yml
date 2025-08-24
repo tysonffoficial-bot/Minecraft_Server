@@ -25,8 +25,8 @@ skills:
     level: 1
     xp: 69.0
   auraskills/agility:
-    level: 1
-    xp: 167.37179999999998
+    level: 2
+    xp: 30.21399999999999
   auraskills/excavation:
     level: 0
     xp: 0.0
@@ -41,9 +41,3 @@ jobs:
 - auraskills/alchemy
 - auraskills/agility
 last_job_select_time: 1756055131981
-stat_modifiers:
-  '0':
-    name: mining-stamina
-    stat: auraskills/toughness
-    operation: ADD
-    value: 6.0
