@@ -784,3 +784,43 @@ Caused by: java.lang.NoSuchMethodException: net.minecraft.resources.ResourceLoca
 [17:09:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
 [17:09:14] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
 [17:09:23] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[17:10:36] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /pl
+[17:10:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /npcs create
+[17:10:57] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /npcs create 1 player
+[17:11:10] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /npcs edit
+[17:11:26] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /npcs skin 1 url slim 68902013
+[17:11:45] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /npcs skin 1 dynamic Ruby_HoshinoSan
+[17:12:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /npcs lookatme 1
+[17:12:36] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mv tp world
+[17:12:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sun
+[17:12:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:13:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:13:10] [Async Chat Thread - #2/INFO]: [Not Secure]  OWNERRuby_HoshinoSan :3
+[17:13:18] [Async Chat Thread - #2/INFO]: [Not Secure]  OWNERRuby_HoshinoSan :Holas
+[17:13:28] [Async Chat Thread - #2/INFO]: [Not Secure]  OWNERRuby_HoshinoSan :cancel
+[17:13:43] [Craft Scheduler Thread - 41 - AdvancedBanX/INFO]: CUBECRAFT VULCAN » Usage » /ban (-s) [Nombre] [Razon/@Layout]
+[17:14:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast &b&lERROR DEL SERVIDOR
+[17:14:18] [Async Chat Thread - #2/INFO]: [Not Secure]  OWNERRuby_HoshinoSan :ho
+[17:14:22] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[17:14:22] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
+[17:14:25] [User Authenticator #1/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
+[17:14:27] [Server thread/INFO]: Ruby_HoshinoSan[/127.36.204.11:51981] logged in with entity id 1931 at ([world]1134.7096035969205, 63.0, 224.55003967745714)
+[17:14:27] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
+[17:14:32] [Async Chat Thread - #2/INFO]: [Not Secure]  OWNERRuby_HoshinoSan :hola
+[17:14:56] [Server thread/INFO]: Nothing changed. The player already is an operator
+[17:15:24] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:15:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:15:54] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:16:01] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:16:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:16:28] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:16:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:17:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:17:26] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:17:29] [Async Chat Thread - #6/INFO]: [Not Secure]  OWNERRuby_HoshinoSan :3
+[17:17:32] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:17:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:19:16] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:19:25] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:19:54] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchantlimit clear
+[17:20:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchantlimit add decapitation 100
