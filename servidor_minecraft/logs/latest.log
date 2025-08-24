@@ -10791,3 +10791,5 @@ java.lang.IllegalArgumentException: Health value (-2.0) must be greater than 0
 [18:37:42] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set 0
 [18:39:49] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /clear
 [18:40:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /repair all
+[18:49:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[18:49:22] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
