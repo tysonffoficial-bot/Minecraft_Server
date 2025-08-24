@@ -851,3 +851,23 @@ Caused by: java.lang.NoSuchMethodException: net.minecraft.resources.ResourceLoca
 [17:28:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
 [17:28:08] [AsyncNotifyKeyedQueue - 1/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightStarlightRelighterFactory as relighter factory.
 [17:28:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skills
+[17:31:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[17:32:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set ancient_debris
+[17:32:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //stack 10 me
+[17:32:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 3
+[17:33:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[17:33:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //stack 500 me
+[17:33:16] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 3
+[17:33:32] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[17:33:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /repair all
+[17:34:10] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mana add Ruby_HoshinoSan
+[17:34:18] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mana add Ruby_HoshinoSan 100 true
+[17:34:24] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mana add Ruby_HoshinoSan
+[17:34:36] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mana add Ruby_HoshinoSan 100 false silent
+[17:34:42] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mana add Ruby_HoshinoSan 100 false allow
+[17:34:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mana add Ruby_HoshinoSan 100 true
+[17:34:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mana set Ruby_HoshinoSan 100
+[17:35:04] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mana set Ruby_HoshinoSan 1000
+[17:35:22] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lightning
+[17:36:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[17:40:09] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /give * emerald_ore 2000
