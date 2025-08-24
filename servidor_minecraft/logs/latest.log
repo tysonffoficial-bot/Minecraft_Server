@@ -824,3 +824,30 @@ Caused by: java.lang.NoSuchMethodException: net.minecraft.resources.ResourceLoca
 [17:19:25] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
 [17:19:54] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchantlimit clear
 [17:20:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchantlimit add decapitation 100
+[17:20:24] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchantlimit add decapitation 1
+[17:20:28] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchantlimit add decapitation
+[17:20:35] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchantlimit add decapitation 100
+[17:20:42] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchantlimit add bloodlust 10
+[17:20:45] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchantlimit add bloodlust 3
+[17:20:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchantlimit add bloodlust
+[17:20:49] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchantlimit add bloodlust 1
+[17:20:57] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /elrenchant list
+[17:21:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchant sharpness 1000
+[17:21:31] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /elrenchant add sharpness 1000
+[17:21:48] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /elrenchant add efficiency 1500
+[17:21:53] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /elrenchant add efficiency 1000
+[17:23:09] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[17:23:44] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /clear
+[17:23:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /repair
+[17:25:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sellall inventory
+[17:25:39] [Server thread/INFO]: Shop >> OWNERRuby_HoshinoSan vendido 4x Diamond§r(Ores.page1.items.9), 147x Tuff§r(Blocks.page4.items.188), 14x Ender Pearl§r(Mobs.page1.items.6), 216x Cobbled Deepslate§r(Blocks.page2.items.94) por 187.24€§r con el vender todo el comando.
+[17:26:09] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /eco give * 10000000
+[17:26:14] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /shop
+[17:26:27] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 1 x Netherite Block(Ores.page1.items.19) para 22,374.00€ con el comprar pantalla.
+[17:26:42] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[17:27:10] [Server thread/INFO]: Ruby_HoshinoSan has made the advancement [Hidden in the Depths]
+[17:27:13] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[17:27:48] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //wand
+[17:28:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[17:28:08] [AsyncNotifyKeyedQueue - 1/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightStarlightRelighterFactory as relighter factory.
+[17:28:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skills
