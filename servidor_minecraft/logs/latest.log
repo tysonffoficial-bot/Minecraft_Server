@@ -757,3 +757,30 @@ Caused by: java.lang.NoSuchMethodException: net.minecraft.resources.ResourceLoca
 [16:52:19] [Server thread/INFO]:  Multiverse-Core, Multiverse-Inventories, Multiverse-NetherPortals, Multiverse-Portals, Multiverse-SignPortals, NDailyRewards, PlaceholderAPI, PlayerKits2, ProtectionStones, rlogin
 [16:52:19] [Server thread/INFO]:  SkinsRestorer, SternalBoard, TAB, Tebex, UberEnchant, Vault, ViaBackwards, ViaVersion, WorldGuard, zMenu
 [16:52:19] [Server thread/INFO]:  ZNPCsPlus
+[17:01:20] [luckperms-command-executor/INFO]: [LP] Running LuckPerms v5.5.9.
+[17:01:20] [luckperms-command-executor/INFO]: [LP] Use /lp help to view available commands.
+[17:03:53] [User Authenticator #0/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
+[17:03:56] [Server thread/INFO]: Ruby_HoshinoSan[/127.36.204.11:40271] logged in with entity id 272 at ([hypixel]-49.32008769927349, 95.0, 3.342126900266846)
+[17:03:56] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
+[17:04:32] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[17:04:38] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidad
+[17:04:41] [Server thread/INFO]: Failed to teleport Ruby_HoshinoSan to w:Survival. The location is deemed unsafe! If this is intentional, use the `--unsafe` flag to override.
+[17:04:42] [Server thread/INFO]: Failed to teleport Ruby_HoshinoSan to w:Survival. The location is deemed unsafe! If this is intentional, use the `--unsafe` flag to override.
+[17:04:43] [Server thread/INFO]: Failed to teleport Ruby_HoshinoSan to w:Survival. The location is deemed unsafe! If this is intentional, use the `--unsafe` flag to override.
+[17:04:43] [Server thread/INFO]: Failed to teleport Ruby_HoshinoSan to w:Survival. The location is deemed unsafe! If this is intentional, use the `--unsafe` flag to override.
+[17:04:43] [Server thread/INFO]: Failed to teleport Ruby_HoshinoSan to w:Survival. The location is deemed unsafe! If this is intentional, use the `--unsafe` flag to override.
+[17:04:44] [Server thread/INFO]: Failed to teleport Ruby_HoshinoSan to w:Survival. The location is deemed unsafe! If this is intentional, use the `--unsafe` flag to override.
+[17:04:44] [Server thread/INFO]: Failed to teleport Ruby_HoshinoSan to w:Survival. The location is deemed unsafe! If this is intentional, use the `--unsafe` flag to override.
+[17:04:45] [Server thread/INFO]: Failed to teleport Ruby_HoshinoSan to w:Survival. The location is deemed unsafe! If this is intentional, use the `--unsafe` flag to override.
+[17:04:53] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mv tp Survival
+[17:04:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mv tp Survival --unsafe
+[17:05:27] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill jobs
+[17:05:31] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill jobs add agility
+[17:05:35] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill jobs add agility 2
+[17:05:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /kit
+[17:08:45] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:08:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:09:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:09:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:09:14] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:09:23] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
