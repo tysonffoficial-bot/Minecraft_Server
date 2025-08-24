@@ -1058,3 +1058,161 @@ java.lang.NumberFormatException: For input string: "1000000000000"
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [17:50:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce bottle Ruby_HoshinoSan 100000000
+[17:50:45] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce bottle Ruby_HoshinoSan 1000000000
+[17:50:49] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce bottle Ruby_HoshinoSan 10000000000
+[17:50:50] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to CrazyEnchantments v2.5.2
+java.lang.NumberFormatException: For input string: "10000000000"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:662) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:778) ~[?:?]
+	at CrazyEnchantments-2.5.2.jar/com.badbones69.crazyenchantments.paper.api.builders.types.tinkerer.TinkererManager.useExperience(TinkererManager.java:53) ~[CrazyEnchantments-2.5.2.jar:?]
+	at CrazyEnchantments-2.5.2.jar/com.badbones69.crazyenchantments.paper.api.builders.types.tinkerer.TinkererMenu$TinkererListener.onExperienceUse(TinkererMenu.java:71) ~[CrazyEnchantments-2.5.2.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:481) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1940) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:45) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:10) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:50:59] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce bottle Ruby_HoshinoSan 99900000000
+[17:51:00] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to CrazyEnchantments v2.5.2
+java.lang.NumberFormatException: For input string: "99900000000"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:662) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:778) ~[?:?]
+	at CrazyEnchantments-2.5.2.jar/com.badbones69.crazyenchantments.paper.api.builders.types.tinkerer.TinkererManager.useExperience(TinkererManager.java:53) ~[CrazyEnchantments-2.5.2.jar:?]
+	at CrazyEnchantments-2.5.2.jar/com.badbones69.crazyenchantments.paper.api.builders.types.tinkerer.TinkererMenu$TinkererListener.onExperienceUse(TinkererMenu.java:71) ~[CrazyEnchantments-2.5.2.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:481) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1940) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:45) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:10) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:51:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce bottle Ruby_HoshinoSan 9900000000
+[17:51:06] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to CrazyEnchantments v2.5.2
+java.lang.NumberFormatException: For input string: "9900000000"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:662) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:778) ~[?:?]
+	at CrazyEnchantments-2.5.2.jar/com.badbones69.crazyenchantments.paper.api.builders.types.tinkerer.TinkererManager.useExperience(TinkererManager.java:53) ~[CrazyEnchantments-2.5.2.jar:?]
+	at CrazyEnchantments-2.5.2.jar/com.badbones69.crazyenchantments.paper.api.builders.types.tinkerer.TinkererMenu$TinkererListener.onExperienceUse(TinkererMenu.java:71) ~[CrazyEnchantments-2.5.2.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:481) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1940) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:45) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:10) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[17:51:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce bottle Ruby_HoshinoSan 900000000
+[17:52:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:52:14] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:52:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce bottle Ruby_HoshinoSan 900000000
+[17:52:19] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:52:25] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:52:39] [Async Chat Thread - #10/INFO]: [Not Secure]  OWNERRuby_HoshinoSan :rf
+[17:53:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[17:53:48] [Server thread/INFO]: Ruby_HoshinoSan has made the advancement [Spooky Scary Skeleton]
+[17:54:06] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[17:54:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /heal
+[17:54:13] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /feed
+[17:54:31] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:54:37] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:54:42] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:54:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:54:52] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:55:13] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:55:26] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:55:32] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:55:36] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:55:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:55:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:55:56] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:56:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:56:16] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:56:24] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:56:31] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:57:29] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:57:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:57:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:57:42] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:57:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:57:57] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:58:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:58:24] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:58:30] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:58:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:58:45] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:58:49] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:58:53] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:58:57] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:59:00] [Async Chat Thread - #13/INFO]: [Not Secure]  OWNERRuby_HoshinoSan :5
+[17:59:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:59:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:59:16] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:59:29] [Server thread/WARN]: Ruby_HoshinoSan moved wrongly!
+[17:59:48] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[17:59:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[18:00:04] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[18:00:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[18:00:14] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[18:00:18] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[18:00:23] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[18:00:30] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[18:00:37] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[18:00:42] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[18:00:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui

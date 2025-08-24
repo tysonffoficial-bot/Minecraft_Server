@@ -11,7 +11,7 @@ skills:
     xp: 0.0
   auraskills/defense:
     level: 0
-    xp: 79.0
+    xp: 82.0
   auraskills/alchemy:
     level: 0
     xp: 0.0
@@ -23,16 +23,16 @@ skills:
     xp: 0.0
   auraskills/fighting:
     level: 1
-    xp: 52.0
+    xp: 69.0
   auraskills/agility:
     level: 1
-    xp: 81.85519999999998
+    xp: 167.37179999999998
   auraskills/excavation:
     level: 0
     xp: 0.0
   auraskills/mining:
     level: 30
-    xp: 24591.58000000003
+    xp: 24618.460000000006
 mana: 22.0
 action_bar:
   idle: true
@@ -41,3 +41,9 @@ jobs:
 - auraskills/alchemy
 - auraskills/agility
 last_job_select_time: 1756055131981
+stat_modifiers:
+  '0':
+    name: mining-stamina
+    stat: auraskills/toughness
+    operation: ADD
+    value: 6.0
