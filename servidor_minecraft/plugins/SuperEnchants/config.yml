@@ -1,4 +1,4 @@
-language: "en" #Language file to use, available languages: en, de, pt, es, fr, nl, ru, cn, pirate
+language: "es" #Language file to use, available languages: en, de, pt, es, fr, nl, ru, cn, pirate
 
 lightning-cooldown: 5 # In Seconds
 teleport-cooldown: 5 # In Seconds

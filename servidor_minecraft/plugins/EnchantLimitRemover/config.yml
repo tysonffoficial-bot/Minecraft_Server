@@ -4,7 +4,7 @@
 # ═══════════════════════════════════════════════════════════════
 
 # Language setting (available: en, id)
-language: es
+language: en
 
 # ═══════════════════════════════════════════════════════════════
 # ENCHANTMENT LEVEL SETTINGS
@@ -62,7 +62,7 @@ cooldowns:
   enabled: false
   # Cooldown duration in seconds
   duration: 60
-  # Players with elr.bypass.cooldown permission can bypass cooldowns
+# Players with elr.bypass.cooldown permission can bypass cooldowns
 
 # ═══════════════════════════════════════════════════════════════
 # ITEM-SPECIFIC ENCHANTMENT LIMITS
@@ -253,63 +253,68 @@ custom-enchantments:
   
   # Custom enchantment definitions
   telekinesis:
-    name: "Telekinesis"
+    name: Telekinesis
     max-level: 1
     target: ALL
     treasure: false
     cursed: false
     conflicts: []
-    description: "Items and XP go directly to your inventory"
+    description: Items and XP go directly to your inventory
   
   soulbound:
-    name: "Soulbound"
+    name: Soulbound
     max-level: 1
     target: ALL
     treasure: true
     cursed: false
     conflicts: []
-    description: "Keep this item on death"
+    description: Keep this item on death
   
   vein_miner:
-    name: "Vein Miner"
+    name: Vein Miner
     max-level: 3
     target: TOOL
     treasure: false
     cursed: false
-    conflicts: [fortune]
-    description: "Mine blocks in veins"
+    conflicts:
+    - fortune
+    description: Mine blocks in veins
 
 # ═══════════════════════════════════════════════════════════════
 # MESSAGES AND LOCALIZATION
 # ═══════════════════════════════════════════════════════════════
 messages:
   # Prefix for all plugin messages
-  prefix: "§6[§eELR§6] "
+  prefix: '§6[§eELR§6] '
   
   # Success messages
-  enchant-added: "§aSuccessfully added §e{enchantment} {level} §ato item!"
-  enchant-removed: "§aSuccessfully removed §e{enchantment} §afrom item!"
-  enchants-cleared: "§aAll enchantments removed from item!"
-  config-reloaded: "§aPlugin configuration reloaded successfully!"
-  item-enchanted: "§aItem successfully enchanted!"
+  enchant-added: §aSuccessfully added §e{enchantment} {level} §ato item!
+  enchant-removed: §aSuccessfully removed §e{enchantment} §afrom item!
+  enchants-cleared: §aAll enchantments removed from item!
+  config-reloaded: §aPlugin configuration reloaded successfully!
+  item-enchanted: §aItem successfully enchanted!
   
   # Error messages
-  no-permission: "§cYou don't have permission to use this command!"
-  no-item: "§cYou must hold an item in your main hand!"
-  invalid-enchant: "§cInvalid enchantment name! Use §e/elrenchant list §cto see available enchantments."
-  invalid-level: "§cInvalid level number! Please enter a valid integer."
-  level-too-high: "§cMaximum enchantment level for you is §e{max-level}§c!"
-  enchant-disabled: "§cThe enchantment §e{enchantment} §cis disabled!"
-  cooldown-active: "§cYou must wait §e{time} §cseconds before using this command again!"
+  no-permission: §cYou don't have permission to use this command!
+  no-item: §cYou must hold an item in your main hand!
+  invalid-enchant: §cInvalid enchantment name! Use §e/elrenchant list §cto see available
+    enchantments.
+  invalid-level: §cInvalid level number! Please enter a valid integer.
+  level-too-high: §cMaximum enchantment level for you is §e{max-level}§c!
+  enchant-disabled: §cThe enchantment §e{enchantment} §cis disabled!
+  cooldown-active: §cYou must wait §e{time} §cseconds before using this command again!
   
   # Info messages
-  max-level-limited: "§6Enchantment level limited to §e{level} §6for §e{enchantment}"
-  enchant-disabled-removed: "§6Disabled enchantment §e{enchantment} §6was removed from your {item}!"
-  enchant-level-reduced: "§6Enchantment §e{enchantment} §6level was reduced from §c{old-level} §6to §a{new-level} §6on your {item}!"
-  inventory-fixed: "§6Some enchantments in your inventory were adjusted to match your limits!"
+  max-level-limited: §6Enchantment level limited to §e{level} §6for §e{enchantment}
+  enchant-disabled-removed: §6Disabled enchantment §e{enchantment} §6was removed from
+    your {item}!
+  enchant-level-reduced: §6Enchantment §e{enchantment} §6level was reduced from §c{old-level}
+    §6to §a{new-level} §6on your {item}!
+  inventory-fixed: §6Some enchantments in your inventory were adjusted to match your
+    limits!
 
 # ═══════════════════════════════════════════════════════════════
 # DO NOT MODIFY BELOW (Internal Settings)
 # ═══════════════════════════════════════════════════════════════
 config-version: 2
-last-updated: "2025-06-09"
+last-updated: '2025-06-09'
