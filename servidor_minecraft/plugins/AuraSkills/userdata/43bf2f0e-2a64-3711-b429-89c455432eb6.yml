@@ -11,7 +11,7 @@ skills:
     xp: 0.0
   auraskills/defense:
     level: 6
-    xp: 331.1965593695704
+    xp: 350.9965593695703
   auraskills/alchemy:
     level: 11
     xp: 9850.0
@@ -23,10 +23,10 @@ skills:
     xp: 0.0
   auraskills/fighting:
     level: 14
-    xp: 19492.000000000007
+    xp: 19521.900000000005
   auraskills/agility:
     level: 4
-    xp: 570.1189
+    xp: 1062.1656200000002
   auraskills/excavation:
     level: 0
     xp: 2.8
@@ -49,4 +49,4 @@ stat_modifiers:
     value: 2.0
 ability_data:
   auraskills/first_strike:
-    counter: 7
+    counter: 9
