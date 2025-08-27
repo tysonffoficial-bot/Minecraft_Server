@@ -73,3 +73,107 @@ Caused by: java.lang.IllegalStateException: Value must be within range [1;99]: 1
 	... 18 more
 [00:04:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /give * chest
 [00:07:52] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[00:08:41] [Server thread/ERROR]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.NewChunkHolder] Failed to save entity data (67,16) in world 'world'
+net.minecraft.ReportedException: Saving entity NBT
+	at net.minecraft.world.entity.Entity.saveWithoutId(Entity.java:2530) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.saveAsPassenger(Entity.java:2370) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.saveAsPassenger(Entity.java:2357) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.save(Entity.java:2377) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.level.entity.ChunkEntitySlices.saveEntityChunk0(ChunkEntitySlices.java:120) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.level.entity.ChunkEntitySlices.saveEntityChunk(ChunkEntitySlices.java:98) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.level.entity.ChunkEntitySlices.save(ChunkEntitySlices.java:150) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.NewChunkHolder.saveEntities(NewChunkHolder.java:1805) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.NewChunkHolder.save(NewChunkHolder.java:1727) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager.autoSave(ChunkHolderManager.java:247) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:430) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:418) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:499) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:776) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1724) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalStateException: Value must be within range [1;99]: 100
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81) ~[datafixerupper-8.0.16.jar:?]
+	at net.minecraft.world.item.ItemStack.save(ItemStack.java:606) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.item.ItemEntity.addAdditionalSaveData(ItemEntity.java:383) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.addAdditionalSaveData(Entity.java:2700) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.saveWithoutId(Entity.java:2482) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	... 18 more
+[00:08:41] [Server thread/ERROR]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.NewChunkHolder] Failed to save entity data (67,17) in world 'world'
+net.minecraft.ReportedException: Saving entity NBT
+	at net.minecraft.world.entity.Entity.saveWithoutId(Entity.java:2530) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.saveAsPassenger(Entity.java:2370) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.saveAsPassenger(Entity.java:2357) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.save(Entity.java:2377) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.level.entity.ChunkEntitySlices.saveEntityChunk0(ChunkEntitySlices.java:120) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.level.entity.ChunkEntitySlices.saveEntityChunk(ChunkEntitySlices.java:98) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.level.entity.ChunkEntitySlices.save(ChunkEntitySlices.java:150) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.NewChunkHolder.saveEntities(NewChunkHolder.java:1805) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.NewChunkHolder.save(NewChunkHolder.java:1727) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager.autoSave(ChunkHolderManager.java:247) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:430) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:418) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:499) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:776) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1724) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalStateException: Value must be within range [1;99]: 100
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81) ~[datafixerupper-8.0.16.jar:?]
+	at net.minecraft.world.item.ItemStack.save(ItemStack.java:606) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.item.ItemEntity.addAdditionalSaveData(ItemEntity.java:383) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.addAdditionalSaveData(Entity.java:2700) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.saveWithoutId(Entity.java:2482) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	... 18 more
+[00:08:41] [Server thread/ERROR]: [ca.spottedleaf.moonrise.patches.chunk_system.scheduling.NewChunkHolder] Failed to save entity data (68,17) in world 'world'
+net.minecraft.ReportedException: Saving entity NBT
+	at net.minecraft.world.entity.Entity.saveWithoutId(Entity.java:2530) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.saveAsPassenger(Entity.java:2370) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.saveAsPassenger(Entity.java:2357) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.save(Entity.java:2377) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.level.entity.ChunkEntitySlices.saveEntityChunk0(ChunkEntitySlices.java:120) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.level.entity.ChunkEntitySlices.saveEntityChunk(ChunkEntitySlices.java:98) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.level.entity.ChunkEntitySlices.save(ChunkEntitySlices.java:150) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.NewChunkHolder.saveEntities(NewChunkHolder.java:1805) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.NewChunkHolder.save(NewChunkHolder.java:1727) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at ca.spottedleaf.moonrise.patches.chunk_system.scheduling.ChunkHolderManager.autoSave(ChunkHolderManager.java:247) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ChunkMap.processUnloads(ChunkMap.java:430) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ChunkMap.tick(ChunkMap.java:418) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ServerChunkCache.tick(ServerChunkCache.java:499) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:776) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1724) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalStateException: Value must be within range [1;99]: 100
+	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81) ~[datafixerupper-8.0.16.jar:?]
+	at net.minecraft.world.item.ItemStack.save(ItemStack.java:606) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.item.ItemEntity.addAdditionalSaveData(ItemEntity.java:383) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.addAdditionalSaveData(Entity.java:2700) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.saveWithoutId(Entity.java:2482) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	... 18 more
+[00:14:36] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[00:14:44] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //wand
+[00:15:07] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /stack 100
+[00:15:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //stack me 100
+[00:15:25] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //stack 100 me
+[00:15:25] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightStarlightRelighterFactory as relighter factory.
+[00:16:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set 0
+[00:16:48] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //schematic save Cofres
+[00:16:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //copy
+[00:16:53] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //schematic save Cofres
+[00:16:53] [WorldEdit Task Executor - 0/INFO]: Ruby_HoshinoSan saved /workspaces/Minecraft_Server/servidor_minecraft/plugins/FastAsyncWorldEdit/schematics/Cofres.schem
+[00:17:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //schem load cofres
+[00:17:16] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //schem load Cofres
+[00:17:24] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //paste
+[00:17:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /undo
+[00:17:44] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /up 100
+[00:17:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //paste
