@@ -295,3 +295,6 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" b
 [00:36:49] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
 [00:37:01] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
 [00:37:06] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /heal
+[00:42:23] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[00:44:06] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[00:44:27] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
