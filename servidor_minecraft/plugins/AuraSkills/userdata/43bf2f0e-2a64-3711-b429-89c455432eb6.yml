@@ -26,10 +26,10 @@ skills:
     xp: 19555.7
   auraskills/agility:
     level: 4
-    xp: 1130.42326
+    xp: 1151.05904
   auraskills/excavation:
     level: 0
-    xp: 5.6000000000000005
+    xp: 11.000000000000005
   auraskills/mining:
     level: 30
     xp: 26603.89999999987
@@ -43,11 +43,6 @@ jobs:
 last_job_select_time: 1756055131981
 stat_modifiers:
   '0':
-    name: mining-stamina
-    stat: auraskills/toughness
-    operation: ADD
-    value: 6.0
-  '1':
     name: AbilityModifier-WiseEffect
     stat: auraskills/wisdom
     operation: ADD
