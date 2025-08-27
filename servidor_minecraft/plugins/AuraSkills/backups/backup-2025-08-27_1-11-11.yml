@@ -1,0 +1,19 @@
+backup_version: 2
+users:
+    43bf2f0e-2a64-3711-b429-89c455432eb6:
+        skills:
+            auraskills/agility: {level: 4, xp: 1406.7969400000002}
+            auraskills/foraging: {level: 0, xp: 0.0}
+            auraskills/defense: {level: 6, xp: 354.29655936957033}
+            auraskills/fighting: {level: 14, xp: 19555.7}
+            auraskills/alchemy: {level: 11, xp: 9850.0}
+            auraskills/farming: {level: 0, xp: 0.0}
+            auraskills/excavation: {level: 0, xp: 99.3}
+            auraskills/archery: {level: 0, xp: 0.0}
+            auraskills/fishing: {level: 0, xp: 0.0}
+            auraskills/mining: {level: 30, xp: 26834.459999999828}
+            auraskills/enchanting: {level: 0, xp: 0.0}
+        mana: 50.0
+        stat_modifiers:
+        - {name: AbilityModifier-WiseEffect, stat: auraskills/wisdom, operation: ADD,
+            value: 2.0}
