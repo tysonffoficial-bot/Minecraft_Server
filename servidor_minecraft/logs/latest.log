@@ -298,3 +298,4 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" b
 [00:42:23] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
 [00:44:06] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
 [00:44:27] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[00:51:54] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /flyspeed fly 1
