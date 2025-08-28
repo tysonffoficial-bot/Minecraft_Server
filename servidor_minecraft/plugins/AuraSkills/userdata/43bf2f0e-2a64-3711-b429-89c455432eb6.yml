@@ -33,7 +33,7 @@ skills:
   auraskills/mining:
     level: 30
     xp: 26834.459999999828
-mana: 50.0
+mana: 53.52
 action_bar:
   idle: true
 locale: es
@@ -46,7 +46,7 @@ stat_modifiers:
     name: AbilityModifier-WiseEffect
     stat: auraskills/wisdom
     operation: ADD
-    value: 2.0
+    value: 6.0
 ability_data:
   auraskills/first_strike:
     counter: 10
