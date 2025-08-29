@@ -1546,3 +1546,49 @@ java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocatio
 [03:04:52] [Server thread/INFO]: Ruby_HoshinoSan[/127.36.204.11:41217] logged in with entity id 23097 at ([world]911.7822960636084, 64.0, 221.30000001192093)
 [03:04:52] [Server thread/INFO]: [+] VIP Ruby_HoshinoSan
 [03:05:35] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[03:06:15] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 3
+[03:06:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[03:06:31] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 3
+[03:06:37] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[03:07:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /day
+[03:08:36] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 3
+[03:09:30] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /warps
+[03:09:35] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /warpcreate
+[03:09:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /warp create
+[03:09:54] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /createwarp NewCave
+[03:11:59] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[03:11:59] [Server thread/INFO]: [-] VIP Ruby_HoshinoSan
+[03:13:55] [Craft Scheduler Thread - 228 - AdvancedBanX/WARN]: [AdvancedBanX] Plugin AdvancedBanX v3.1.0 generated an exception while executing task 211581
+java.lang.IndexOutOfBoundsException: Index: 0, Length: 0
+	at AdvancedBanX-3.1.0.jar/net.hnt8.advancedban.shaded.org.apache.commons.lang3.ArrayUtils.remove(ArrayUtils.java:6575) ~[AdvancedBanX-3.1.0.jar:?]
+	at AdvancedBanX-3.1.0.jar/net.hnt8.advancedban.shaded.org.apache.commons.lang3.ArrayUtils.remove(ArrayUtils.java:5994) ~[AdvancedBanX-3.1.0.jar:?]
+	at AdvancedBanX-3.1.0.jar/net.hnt8.advancedban.utils.Command$CommandInput.next(Command.java:615) ~[AdvancedBanX-3.1.0.jar:?]
+	at AdvancedBanX-3.1.0.jar/net.hnt8.advancedban.utils.CommandUtils.processName(CommandUtils.java:19) ~[AdvancedBanX-3.1.0.jar:?]
+	at AdvancedBanX-3.1.0.jar/net.hnt8.advancedban.utils.commands.PunishmentProcessor.accept(PunishmentProcessor.java:33) ~[AdvancedBanX-3.1.0.jar:?]
+	at AdvancedBanX-3.1.0.jar/net.hnt8.advancedban.utils.commands.PunishmentProcessor.accept(PunishmentProcessor.java:18) ~[AdvancedBanX-3.1.0.jar:?]
+	at AdvancedBanX-3.1.0.jar/net.hnt8.advancedban.utils.Command.execute(Command.java:553) ~[AdvancedBanX-3.1.0.jar:?]
+	at AdvancedBanX-3.1.0.jar/net.hnt8.advancedban.manager.CommandManager.lambda$onCommand$0(CommandManager.java:46) ~[AdvancedBanX-3.1.0.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.21.4.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:14:09] [Craft Scheduler Thread - 228 - AdvancedBanX/INFO]: CUBECRAFT VULCAN » Ruby_HoshinoSan El Baneo Se Completo Satisfactoriamente!
+[03:15:54] [User Authenticator #9/INFO]: Disconnecting Ruby_HoshinoSan (/127.36.204.11:58725): CUBECRAFT VULCAN » Baneado Permanentemente
+
+
+Reason » No reason provided.
+
+Unban application in TS or forum
+TS-Ip » coming soon
+Forum » coming soon
+[03:15:54] [User Authenticator #9/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
+[03:15:54] [Server thread/INFO]: Ruby_HoshinoSan (/127.36.204.11:58725) lost connection: CUBECRAFT VULCAN » Baneado Permanentemente
+
+
+Reason » No reason provided.
+
+Unban application in TS or forum
+TS-Ip » coming soon
+Forum » coming soon
