@@ -5,7 +5,7 @@ skills:
     xp: 0.0
   auraskills/archery:
     level: 100
-    xp: 8.7203704E7
+    xp: 8.7203725E7
   auraskills/fishing:
     level: 100
     xp: 0.0
@@ -26,14 +26,14 @@ skills:
     xp: 208312.0
   auraskills/agility:
     level: 100
-    xp: 7.716193657940005E7
+    xp: 7.716201241100004E7
   auraskills/excavation:
     level: 100
     xp: 0.0
   auraskills/mining:
     level: 100
     xp: 1.2804122341999999E8
-mana: 6114.700000000108
+mana: 4600.0
 action_bar:
   idle: true
 locale: es
@@ -51,12 +51,12 @@ stat_modifiers:
     name: AbilityModifier-EnchantedStrength
     stat: auraskills/strength
     operation: ADD
-    value: 350.0
+    value: 80.0
   '2':
     name: AbilityModifier-WiseEffect
     stat: auraskills/wisdom
     operation: ADD
-    value: 6120.0
+    value: 2040.0
   '3':
     name: '150'
     stat: auraskills/speed
@@ -71,4 +71,4 @@ ability_data:
   auraskills/first_strike:
     counter: 21
   auraskills/xp_convert:
-    xp: 0.023600000000442378
+    xp: 14.855200000000451
