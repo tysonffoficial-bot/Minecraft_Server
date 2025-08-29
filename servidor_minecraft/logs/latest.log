@@ -1426,3 +1426,59 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" b
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [02:45:24] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
 [02:45:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[02:46:31] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /feed
+[02:47:07] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /pl
+[02:47:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /auraskills:skill
+[02:49:31] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /commandapi
+[02:49:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /alert
+[02:49:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /alchemy
+[02:50:16] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /give * enchanted_golden_apple
+[02:50:52] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /alc
+[02:50:54] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /alchemy
+[02:51:42] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk skill addlevel Ruby_HoshinoSan defense 100000
+[02:51:45] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /alchemy
+[02:52:26] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /deop Ruby_HoshinoSan
+[02:52:26] [Server thread/INFO]: [Ruby_HoshinoSan: Made Ruby_HoshinoSan no longer a server operator]
+[02:52:28] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ban
+[02:52:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /npt
+[02:52:53] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /holo teleport 1
+[02:52:59] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /holo edit
+[02:53:04] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /holo edit 1
+[02:53:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skilltop
+[02:53:32] [luckperms-command-executor/INFO]: [LP] ruby_hoshinosan had their existing parent groups cleared, and now only inherits vip in context global.
+[02:53:38] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skilltop
+[02:53:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[02:54:28] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp
+[02:54:31] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /pl
+[02:55:16] [luckperms-command-executor/INFO]: [LP] Set superenchants.enchant.* to true for ruby_hoshinosan in context global.
+[02:55:19] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SuperEnchants v3.2.0.1
+java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.entity.Player.getTargetBlockExact(int)" is null
+	at SuperEnchants-3.2.0.1-all.jar/com.aznos.superenchants.listener.PlayerInteract.handleLightning(PlayerInteract.java:246) ~[SuperEnchants-3.2.0.1-all.jar:?]
+	at SuperEnchants-3.2.0.1-all.jar/com.aznos.superenchants.listener.PlayerInteract.onPlayerInteract(PlayerInteract.java:85) ~[SuperEnchants-3.2.0.1-all.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:559) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:554) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:550) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2560) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:9) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
