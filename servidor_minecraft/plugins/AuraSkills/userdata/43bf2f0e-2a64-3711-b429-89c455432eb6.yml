@@ -5,13 +5,13 @@ skills:
     xp: 0.0
   auraskills/archery:
     level: 100
-    xp: 8.7203359E7
+    xp: 8.7203542E7
   auraskills/fishing:
     level: 100
     xp: 0.0
   auraskills/defense:
     level: 100
-    xp: 0.0
+    xp: 324.0
   auraskills/alchemy:
     level: 10201
     xp: 0.0
@@ -23,17 +23,17 @@ skills:
     xp: 0.0
   auraskills/fighting:
     level: 100100
-    xp: 0.0
+    xp: 188282.0
   auraskills/agility:
     level: 100
-    xp: 7.716133174400003E7
+    xp: 7.716136954400004E7
   auraskills/excavation:
     level: 100
     xp: 0.0
   auraskills/mining:
     level: 100
     xp: 1.2804122341999999E8
-mana: 5201.800000000043
+mana: 4610.200000000001
 action_bar:
   idle: true
 locale: es
@@ -64,6 +64,6 @@ stat_modifiers:
     value: 1.0
 ability_data:
   auraskills/first_strike:
-    counter: 20
+    counter: 21
   auraskills/xp_convert:
-    xp: 14.688200000000013
+    xp: 15.988199999999779
