@@ -373,3 +373,6 @@ java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocatio
 [01:14:26] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //walls hand
 [01:14:36] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
 [01:14:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[01:14:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /afk
+[01:15:32] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Timed out
+[01:15:32] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
