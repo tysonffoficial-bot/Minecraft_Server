@@ -287,3 +287,12 @@ java.lang.IllegalArgumentException: Health value (1107.353759765625) must be bet
 [00:36:00] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
 [00:38:35] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
 [00:38:49] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[00:47:45] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[00:48:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[00:48:16] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[00:48:31] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /undo
+[00:48:48] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[00:48:48] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
+[00:51:10] [AsyncNotifyKeyedQueue - 9/INFO]: You need to provide a world (Try //world)
+[00:54:33] [Server thread/INFO]: Unknown or incomplete command, see below for error
+//world<--[HERE]

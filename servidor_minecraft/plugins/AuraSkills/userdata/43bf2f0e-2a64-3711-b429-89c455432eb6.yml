@@ -23,10 +23,10 @@ skills:
     xp: 8.0
   auraskills/fighting:
     level: 15
-    xp: 76.6999999999789
+    xp: 85.7999999999789
   auraskills/agility:
     level: 5
-    xp: 1714.6663199999994
+    xp: 1950.8781199999996
   auraskills/excavation:
     level: 1
     xp: 121.99999999999977
@@ -49,4 +49,4 @@ stat_modifiers:
     value: 4.0
 ability_data:
   auraskills/first_strike:
-    counter: 17
+    counter: 18
