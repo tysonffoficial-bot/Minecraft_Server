@@ -1,0 +1,18 @@
+items:
+  auraskills/1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        minecraft:infinity: 1
+        minecraft:power: 255
+        superenchants:abiding: 1
+        superenchants:archer: 3
+        superenchants:detonate: 3
+        superenchants:headshot: 2
+        superenchants:multishoot: 3
+        superenchants:piercing: 3
+      Unbreakable: true

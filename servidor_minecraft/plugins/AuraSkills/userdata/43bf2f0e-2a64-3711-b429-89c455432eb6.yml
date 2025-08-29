@@ -23,17 +23,17 @@ skills:
     xp: 0.0
   auraskills/fighting:
     level: 100100
-    xp: 208312.0
+    xp: 212318.0
   auraskills/agility:
     level: 100
-    xp: 7.716208344320005E7
+    xp: 7.716257311820005E7
   auraskills/excavation:
     level: 100
     xp: 0.0
   auraskills/mining:
     level: 100
     xp: 1.2804122341999999E8
-mana: 4600.0
+mana: 6048.400000000103
 action_bar:
   idle: true
 locale: es
@@ -51,7 +51,7 @@ stat_modifiers:
     name: AbilityModifier-WiseEffect
     stat: auraskills/wisdom
     operation: ADD
-    value: 2040.0
+    value: 10200.0
   '2':
     name: '150'
     stat: auraskills/speed
@@ -64,6 +64,6 @@ stat_modifiers:
     value: 1.0
 ability_data:
   auraskills/first_strike:
-    counter: 21
+    counter: 22
   auraskills/xp_convert:
-    xp: 11.887400000000454
+    xp: 18.062400000000707
