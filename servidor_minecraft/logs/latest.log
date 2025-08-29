@@ -939,3 +939,39 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" b
 [01:53:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk xp add Ruby_HoshinoSan mining 100000000
 [01:53:49] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
 [01:54:29] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[01:55:35] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk xp add Ruby_HoshinoSan archery 100000000
+[01:55:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skilltop
+[01:57:15] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk xp add Ruby_HoshinoSan fighting 100000000
+[01:57:39] [Server thread/INFO]: Unknown or incomplete command, see below for error
+skillstop<--[HERE]
+[01:57:46] [Server thread/INFO]: --==All Skills Leaderboard==--
+[01:57:52] [Server thread/INFO]: Error: Console may not execute this command.
+[01:57:57] [Server thread/INFO]: Unknown Command, please type /sk help
+[01:58:02] [Server thread/INFO]: === Showing help for sk ===
+[01:58:02] [Server thread/INFO]: skills  - Opens the Skills menu where you can browse skills, progress, and abilities.
+[01:58:02] [Server thread/INFO]: skills claimitems  - Opens the menu to claim unclaimed items.
+[01:58:02] [Server thread/INFO]: skills trait remove [player] <name> [silent] - Removes a specific trait modifier from a player.
+[01:58:02] [Server thread/INFO]: skills armor multiplier list  - Lists all armor multipliers on the held item.
+[01:58:02] [Server thread/INFO]: skills item requirement removeall  - Removes all item requirements from the item held.
+[01:58:02] [Server thread/INFO]: skills storage removeallmodifiers  
+[01:58:02] [Server thread/INFO]: skills skill setall [player] <level> - Sets all of a player's skills to a level.
+[01:58:02] [Server thread/INFO]: skills resethealth  - Removes all attribute modifiers by AuraSkills for easy uninstalling. This only works on offline players.
+[01:58:02] [Server thread/INFO]: skills skill setlevel [player] <skill> <level> - Sets a specific skill to a level for a player.
+[01:58:02] [Server thread/INFO]: skills xp add [player] <skill> <amount> [silent] - Adds skill XP to a player for a certain skill.
+[01:58:02] [Server thread/INFO]:  - Showing page 1 of 9 (82 results).
+[01:58:57] [Server thread/INFO]: [Skills] Habilidad Encantador establecida al nivel 100 para Ruby_HoshinoSan
+[01:59:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[01:59:37] [Server thread/INFO]: [Skills] Habilidad Forrajeo establecida al nivel 100 para Ruby_HoshinoSan
+[02:00:02] [Server thread/INFO]: [Skills] Habilidad Excavación establecida al nivel 100 para Ruby_HoshinoSan
+[02:00:26] [Server thread/INFO]: [Skills] Habilidad Pescadería establecida al nivel 100 para Ruby_HoshinoSan
+[02:01:30] [Server thread/INFO]: [Skills] Habilidad Agricultura establecida al nivel 100 para Ruby_HoshinoSan
+[02:01:47] [Server thread/INFO]: [Skills] Habilidad Defensa establecida al nivel 100 para Ruby_HoshinoSan
+[02:02:21] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[02:03:04] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk skill addlevel
+[02:03:13] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk skill addlevel Ruby_HoshinoSan alchemy 101
+[02:03:18] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[02:03:32] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk skill addlevel Ruby_HoshinoSan alchemy 10000
+[02:03:37] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[02:04:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk skill addlevel Ruby_HoshinoSan fighting 100000
+[02:04:13] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[02:04:45] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
