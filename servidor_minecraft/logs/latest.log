@@ -1,1 +1,10 @@
 [00:04:38] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sun
+[00:22:00] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //wand
+[00:22:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[00:22:34] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightStarlightRelighterFactory as relighter factory.
+[00:22:38] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 3
+[00:22:42] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[00:23:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[00:23:24] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[00:23:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[00:24:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //walls hand

@@ -26,13 +26,13 @@ skills:
     xp: 23.3999999999789
   auraskills/agility:
     level: 5
-    xp: 1466.053779999999
+    xp: 1543.2596999999992
   auraskills/excavation:
     level: 1
-    xp: 67.59999999999977
+    xp: 98.49999999999984
   auraskills/mining:
     level: 30
-    xp: 27640.219999999823
+    xp: 27650.779999999813
 mana: 56.0
 action_bar:
   idle: true
