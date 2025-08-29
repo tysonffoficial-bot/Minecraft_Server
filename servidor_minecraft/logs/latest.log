@@ -376,3 +376,72 @@ java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocatio
 [01:14:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /afk
 [01:15:32] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Timed out
 [01:15:32] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
+[01:29:44] [User Authenticator #2/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
+[01:29:46] [Server thread/INFO]: Ruby_HoshinoSan[/127.36.204.11:49911] logged in with entity id 14128 at ([world]887.8994180928447, 64.0, 314.52895961502287)
+[01:29:46] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
+[01:30:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /effect give @p minecraft:night_vision infinite
+[01:30:05] [Server thread/INFO]: [Ruby_HoshinoSan: Applied effect Night Vision to Ruby_HoshinoSan]
+[01:30:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[01:30:57] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 3
+[01:31:06] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[01:31:28] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /effect clear
+[01:31:28] [Server thread/INFO]: [Ruby_HoshinoSan: Removed every effect from Ruby_HoshinoSan]
+[01:31:49] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /effect give @p minecraft:health_boost infinite 255
+[01:31:49] [Server thread/INFO]: [Ruby_HoshinoSan: Applied effect Health Boost to Ruby_HoshinoSan]
+[01:31:53] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /heal
+[01:32:09] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 3
+[01:32:21] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /effect give @p minecraft:night_vision infinite
+[01:32:21] [Server thread/INFO]: [Ruby_HoshinoSan: Applied effect Night Vision to Ruby_HoshinoSan]
+[01:32:23] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[01:32:31] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to SuperEnchants v3.2.0.1
+java.lang.IllegalArgumentException: Health value (1052.791259765625) must be between 0 and 1024.0. (attribute base value: 20.0, player: Ruby_HoshinoSan)
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:483) ~[guava-33.3.1-jre.jar:?]
+	at org.bukkit.craftbukkit.entity.CraftLivingEntity.setHealth(CraftLivingEntity.java:112) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at SuperEnchants-3.2.0.1-all.jar/com.aznos.superenchants.listener.EntityDamage.onEntityDamage(EntityDamage.java:142) ~[SuperEnchants-3.2.0.1-all.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEvent(CraftEventFactory.java:276) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1209) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:1199) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1129) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:1090) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:1253) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.LivingEntity.handleEntityDamage(LivingEntity.java:2304) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.LivingEntity.hurtServer(LivingEntity.java:1433) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.Entity.hurtOrSimulate(Entity.java:2225) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.world.entity.player.Player.attack(Player.java:1291) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.level.ServerPlayer.attack(ServerPlayer.java:2445) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$2.onAttack(ServerGamePacketListenerImpl.java:2834) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$1.dispatch(ServerboundInteractPacket.java:29) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.dispatch(ServerboundInteractPacket.java:91) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleInteract(ServerGamePacketListenerImpl.java:2757) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.handle(ServerboundInteractPacket.java:78) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.handle(ServerboundInteractPacket.java:14) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:33:13] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[01:33:28] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[01:33:33] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[01:33:37] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[01:33:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[01:33:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[01:33:52] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[01:34:09] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchant power 255
+[01:34:30] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchant infarrows 1
+[01:34:43] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
