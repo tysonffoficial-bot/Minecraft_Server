@@ -975,3 +975,41 @@ skillstop<--[HERE]
 [02:04:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk skill addlevel Ruby_HoshinoSan fighting 100000
 [02:04:13] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
 [02:04:45] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[02:05:44] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill mana
+[02:05:56] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk manaability resetcooldown
+[02:06:09] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk manaability resetcooldown Ruby_HoshinoSan fillmana
+[02:06:18] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk manaability resetcooldown Ruby_HoshinoSan absorption true
+[02:06:21] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk manaability resetcooldown Ruby_HoshinoSan absorption true
+[02:06:22] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk manaability resetcooldown Ruby_HoshinoSan absorption true
+[02:06:23] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk manaability resetcooldown Ruby_HoshinoSan absorption true
+[02:06:27] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk manaability resetcooldown Ruby_HoshinoSan absorption true
+[02:06:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk mana
+[02:07:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk modifier add Ruby_HoshinoSan speed 300
+[02:07:24] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk modifier add Ruby_HoshinoSan speed
+[02:08:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk modifier add Ruby_HoshinoSan speed 150 1 add true
+[02:08:10] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk modifier add Ruby_HoshinoSan speed 150 1 add true
+[02:08:14] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[02:09:11] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[02:09:11] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
+[02:09:14] [User Authenticator #4/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
+[02:09:15] [Server thread/INFO]: Ruby_HoshinoSan[/127.36.204.11:41147] logged in with entity id 18849 at ([world]883.1545924806733, 64.0, 319.2533129753053)
+[02:09:15] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
+[02:09:27] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[02:09:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[02:10:04] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk modifier add Ruby_HoshinoSan speed 150 1 multiply true
+[02:10:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[02:10:15] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[02:10:15] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
+[02:10:17] [User Authenticator #5/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
+[02:10:18] [Server thread/INFO]: Ruby_HoshinoSan[/127.36.204.11:40931] logged in with entity id 18964 at ([world]887.8628660904255, 64.0, 322.23864747604426)
+[02:10:18] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
+[02:10:21] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[02:11:09] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk modifier add Ruby_HoshinoSan speed 150 100 multiply true
+[02:11:12] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[02:11:12] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
+[02:11:14] [User Authenticator #5/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
+[02:11:15] [Server thread/INFO]: Ruby_HoshinoSan[/127.36.204.11:46025] logged in with entity id 19054 at ([world]880.3000000119209, 64.0, 321.9196404619527)
+[02:11:15] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
+[02:11:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[02:12:31] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Timed out
+[02:12:31] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
