@@ -911,3 +911,31 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" b
 [01:41:35] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skilltop
 [01:41:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skilltop agility
 [01:42:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[01:45:18] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill level
+[01:45:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill modifier add Ruby_HoshinoSan crit_chance 100
+[01:45:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill modifier add Ruby_HoshinoSan crit_chance 100 1 add true
+[01:45:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill modifier add Ruby_HoshinoSan crit_chance 100 1 add true
+[01:47:04] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk manaability resetcooldown Ruby_HoshinoSan speed_mine true
+[01:47:18] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk lang es
+[01:47:33] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk item give Ruby_HoshinoSan
+[01:47:38] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk item give Ruby_HoshinoSan 1
+[01:47:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk item give Ruby_HoshinoSan 100
+[01:48:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk save
+[01:48:15] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk item register 1
+[01:48:26] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk item give Ruby_HoshinoSan 1
+[01:49:04] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk rank
+[01:49:14] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk multiplier Ruby_HoshinoSan
+[01:49:18] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk multiplier Ruby_HoshinoSan 100
+[01:49:48] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk storage
+[01:50:21] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk xp add Ruby_HoshinoSan agility 100
+[01:50:26] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk xp add Ruby_HoshinoSan agility 100000000
+[01:50:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[01:51:18] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[01:51:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk top agility
+[01:51:54] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk top agility
+[01:52:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk top agility
+[01:52:15] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[01:52:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk xp add Ruby_HoshinoSan alchemy 100000000
+[01:53:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sk xp add Ruby_HoshinoSan mining 100000000
+[01:53:49] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[01:54:29] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill

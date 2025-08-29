@@ -4,17 +4,17 @@ skills:
     level: 0
     xp: 0.0
   auraskills/archery:
-    level: 6
-    xp: 959.0
+    level: 11
+    xp: 8759.0
   auraskills/fishing:
     level: 0
     xp: 0.0
   auraskills/defense:
     level: 6
-    xp: 545.3776344180168
+    xp: 1043.2161782622393
   auraskills/alchemy:
-    level: 11
-    xp: 9850.0
+    level: 100
+    xp: 8.720445E7
   auraskills/farming:
     level: 0
     xp: 0.0
@@ -23,17 +23,17 @@ skills:
     xp: 8.0
   auraskills/fighting:
     level: 15
-    xp: 94.89999999997889
+    xp: 9203.99999999998
   auraskills/agility:
-    level: 5
-    xp: 2283.6443999999974
+    level: 100
+    xp: 7.716100284140001E7
   auraskills/excavation:
     level: 1
     xp: 125.59999999999977
   auraskills/mining:
-    level: 30
-    xp: 27723.419999999747
-mana: 52.0
+    level: 100
+    xp: 1.2804122341999999E8
+mana: 362.28
 action_bar:
   idle: true
 locale: es
@@ -43,10 +43,15 @@ jobs:
 last_job_select_time: 1756055131981
 stat_modifiers:
   '0':
+    name: '100'
+    stat: auraskills/crit_chance
+    operation: ADD
+    value: 1.0
+  '1':
     name: AbilityModifier-WiseEffect
     stat: auraskills/wisdom
     operation: ADD
-    value: 2.0
+    value: 60.0
 ability_data:
   auraskills/first_strike:
-    counter: 19
+    counter: 20
