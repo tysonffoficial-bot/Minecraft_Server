@@ -320,3 +320,56 @@ java.lang.IllegalArgumentException: Health value (1107.353759765625) must be bet
 [01:00:33] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
 [01:01:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
 [01:03:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /irename &a&kGOD&c&lYORICHI BOW&a&kGOD
+[01:04:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchanter add AntiGravity 1
+[01:04:59] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchanter add AntiGravity 100
+[01:05:23] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchanter add arrowstorm 10
+[01:06:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchanter add missile 10
+[01:07:14] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchanter add missile 1000
+[01:07:57] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchanter add multishoot 100
+[01:08:23] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchanter add arrowstorm 100
+[01:08:54] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchanter add power 100
+[01:09:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchanter add archer 3
+[01:10:25] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchanter crystal 1
+[01:10:53] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchanter crystal 64
+[01:11:13] [Server thread/ERROR]: Could not pass event PlayerInteractEvent to SuperEnchants v3.2.0.1
+java.lang.NullPointerException: Cannot invoke "org.bukkit.block.Block.getLocation()" because the return value of "org.bukkit.entity.Player.getTargetBlockExact(int)" is null
+	at SuperEnchants-3.2.0.1-all.jar/com.aznos.superenchants.listener.PlayerInteract.handleLightning(PlayerInteract.java:246) ~[SuperEnchants-3.2.0.1-all.jar:?]
+	at SuperEnchants-3.2.0.1-all.jar/com.aznos.superenchants.listener.PlayerInteract.onPlayerInteract(PlayerInteract.java:85) ~[SuperEnchants-3.2.0.1-all.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:603) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:559) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:554) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:550) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.handleAnimate(ServerGamePacketListenerImpl.java:2560) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:34) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.game.ServerboundSwingPacket.handle(ServerboundSwingPacket.java:9) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:29) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:11:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchanter debug
+[01:12:00] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchanter check-enchants
+[01:12:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchanter check-enchants Ruby_HoshinoSan
+[01:12:14] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce check-enchants Ruby_HoshinoSan
+[01:12:16] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ce check-enchants Ruby_HoshinoSan
+[01:12:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
+[01:13:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[01:13:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[01:14:26] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //walls hand
+[01:14:36] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[01:14:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
