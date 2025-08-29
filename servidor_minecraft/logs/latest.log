@@ -296,3 +296,27 @@ java.lang.IllegalArgumentException: Health value (1107.353759765625) must be bet
 [00:51:10] [AsyncNotifyKeyedQueue - 9/INFO]: You need to provide a world (Try //world)
 [00:54:33] [Server thread/INFO]: Unknown or incomplete command, see below for error
 //world<--[HERE]
+[00:54:52] [AsyncNotifyKeyedQueue - 10/INFO]: Too many arguments.
+[00:54:59] [AsyncNotifyKeyedQueue - 10/INFO]: Unable to find session for hypired
+[00:55:06] [AsyncNotifyKeyedQueue - 10/INFO]: Unable to find session for hypixel
+[00:55:10] [AsyncNotifyKeyedQueue - 10/INFO]: You need to provide a world (Try //world)
+[00:55:19] [AsyncNotifyKeyedQueue - 10/INFO]: Too many arguments.
+[00:55:34] [AsyncNotifyKeyedQueue - 10/INFO]: Removed world override.
+[00:57:11] [User Authenticator #1/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
+[00:57:12] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Detected skin change of Ruby_HoshinoSan, updating cached skin...
+[00:57:12] [Server thread/INFO]: Ruby_HoshinoSan[/127.36.204.11:59785] logged in with entity id 8847 at ([world]920.4117737410116, 64.5, 198.97280164664602)
+[00:57:12] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
+[00:57:38] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[00:58:00] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[00:58:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /undo
+[00:58:29] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[00:59:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /repair all
+[00:59:53] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[01:00:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[01:00:09] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[01:00:15] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[01:00:18] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[01:00:23] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[01:00:33] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[01:01:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[01:03:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /irename &a&kGOD&c&lYORICHI BOW&a&kGOD
