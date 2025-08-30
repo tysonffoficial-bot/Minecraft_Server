@@ -2,10 +2,10 @@ Players:
   43bf2f0e-2a64-3711-b429-89c455432eb6:
     Name: Ruby_HoshinoSan
     tracking:
-      total-crates: 9
+      total-crates: 13
       CrateExample: 2
       CasinoCrate: 2
-      CosmicCrate: 5
+      CosmicCrate: 9
     CasinoCrate: 118
-    CosmicCrate: 5
+    CosmicCrate: 4
 Prizes: {}

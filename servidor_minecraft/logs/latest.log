@@ -1425,3 +1425,34 @@ rollback<--[HERE]
 [01:34:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
 [01:35:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
 [01:35:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:36:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:36:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:37:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:37:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:38:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:38:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:39:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:39:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:40:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:40:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:41:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:41:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:42:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:42:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:43:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:43:21] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /keys view
+[01:43:37] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /crates give physical CosmicCrate 128
+[01:43:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /crates give physical CosmicCrate 128 Ruby_HoshinoSan
+[01:43:47] [Server thread/INFO]:  CrazyCrates | Ruby_HoshinoSan is opening a Cosmic Crate.
+[01:43:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:43:58] [Server thread/INFO]:  CrazyCrates | Ruby_HoshinoSan is opening a Cosmic Crate.
+[01:44:03] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /eco give Ruby_HoshinoSan 1000
+[01:44:03] [Server thread/INFO]: $1,000 added to VIPRuby_HoshinoSan account. New balance: $11,003,220.15
+[01:44:10] [Server thread/INFO]:  CrazyCrates | Ruby_HoshinoSan is opening a Cosmic Crate.
+[01:44:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:44:47] [Server thread/INFO]:  CrazyCrates | Ruby_HoshinoSan is opening a Cosmic Crate.
+[01:44:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:44:56] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /eco give Ruby_HoshinoSan 1000
+[01:44:56] [Server thread/INFO]: $1,000 added to VIPRuby_HoshinoSan account. New balance: $11,004,220.15
+[01:45:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:45:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
