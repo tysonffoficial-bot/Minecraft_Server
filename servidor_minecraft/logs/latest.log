@@ -1294,3 +1294,27 @@ rollback<--[HERE]
 [00:35:11] [Server thread/INFO]:  EssentialsChat, EssentialsSpawn, ExecutableItems, FastAsyncWorldEdit, floodgate, FokusAPI, Geyser-Spigot, InventoryRollbackPlus, LuckPerms, Multiverse-Core
 [00:35:11] [Server thread/INFO]:  Multiverse-Inventories, Multiverse-NetherPortals, Multiverse-Portals, Multiverse-SignPortals, NDailyRewards, NexEngine, PlaceholderAPI, PlayerKits2, ProtectionStones, SkinsRestorer
 [00:35:11] [Server thread/INFO]:  SternalBoard, TAB, Tebex, UberEnchant, Vault, ViaBackwards, ViaVersion, WorldGuard, zMenu, ZNPCsPlus
+[00:35:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:35:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:35:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ir enable
+[00:35:59] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ir restore Ruby_HoshinoSan
+[00:36:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:36:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:37:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:37:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:38:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:38:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:39:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:39:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:40:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:40:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:41:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:41:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:42:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:42:35] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ir restore Ruby_HoshinoSan
+[00:42:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:43:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:43:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:44:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:44:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:45:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
