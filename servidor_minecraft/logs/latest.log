@@ -1238,3 +1238,59 @@ java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" b
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [00:24:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:25:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:25:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:26:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /v
+[00:26:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:26:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:27:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:27:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:28:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:28:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[00:28:45] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[00:28:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:29:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:29:38] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[00:29:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:29:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[00:30:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[00:30:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:30:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:31:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:31:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:31:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /crate give physical Menu
+[00:31:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /crate give physical Menu 1 1
+[00:31:59] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /crate give physical Menu 1 Ruby_HoshinoSan
+[00:32:10] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /crate give physical WonderCrate 1 Ruby_HoshinoSan
+[00:32:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:32:32] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ban
+[00:32:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ban -s Ruby_HoshinoSan Reason...
+[00:32:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ban -s Ruby_HoshinoSan Reason...
+[00:32:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:33:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:33:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /crate editor
+[00:33:29] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /crate editor -c
+[00:33:33] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /crate editor -e
+[00:33:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /crate editor -c
+[00:33:43] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /crate editor -c CosmicCrate
+[00:33:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:33:49] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /crate editor -e
+[00:33:53] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /crate editor -c CosmicCrate
+[00:33:59] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /eci
+[00:34:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:34:19] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /crate editor -e
+[00:34:38] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ece
+[00:34:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ecall
+[00:34:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[00:34:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ecall Ruby_HoshinoSan
+[00:34:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ecall Ruby_HoshinoSan ban
+[00:35:08] [Server thread/INFO]: Unknown or incomplete command, see below for error
+rollback<--[HERE]
+[00:35:11] [Server thread/INFO]: ℹ Server Plugins (50):
+[00:35:11] [Server thread/INFO]: Paper Plugins (10):
+[00:35:11] [Server thread/INFO]:  - CrazyCrates, EconomyShopGUI, EnchantedBook, EpicGuard, FancyHolograms, FancyNpcs, nightcore, SuperEnchants, Veinminer, Veinminer-Enchantment
+[00:35:11] [Server thread/INFO]: Bukkit Plugins (40):
+[00:35:11] [Server thread/INFO]:  - AdvancedBanX, AuraSkills, CommandAPI, CommandPanels, craftableinvframes, CrazyEnchantments, DoubleJump, EnchantHandler, EnchantLimitRemover, Essentials
+[00:35:11] [Server thread/INFO]:  EssentialsChat, EssentialsSpawn, ExecutableItems, FastAsyncWorldEdit, floodgate, FokusAPI, Geyser-Spigot, InventoryRollbackPlus, LuckPerms, Multiverse-Core
+[00:35:11] [Server thread/INFO]:  Multiverse-Inventories, Multiverse-NetherPortals, Multiverse-Portals, Multiverse-SignPortals, NDailyRewards, NexEngine, PlaceholderAPI, PlayerKits2, ProtectionStones, SkinsRestorer
+[00:35:11] [Server thread/INFO]:  SternalBoard, TAB, Tebex, UberEnchant, Vault, ViaBackwards, ViaVersion, WorldGuard, zMenu, ZNPCsPlus
