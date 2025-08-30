@@ -4,7 +4,7 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 127.36.204.11
-afk: true
+afk: false
 socialspy: false
 npc: false
 powertoolsenabled: true
@@ -20,7 +20,7 @@ timestamps:
   login: 1756513029044
   kits:
     color: 1755730040795
-money: '11001220.15000000000002'
+money: '11002220.15000000000002'
 last-account-name: Ruby_HoshinoSan
 logoutlocation:
   world: 0b5443e8-281b-4691-94ac-9bf342f6f7e2

@@ -1398,3 +1398,30 @@ rollback<--[HERE]
 [01:24:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
 [01:24:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
 [01:25:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:25:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:26:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:26:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:27:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:27:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:28:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:28:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:29:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:29:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[01:29:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:30:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:30:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:30:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /crate editor -c CosmicCrate
+[01:31:00] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /crate editor -e
+[01:31:15] [Server thread/INFO]:  CrazyCrates | Ruby_HoshinoSan is opening a Cosmic Crate.
+[01:31:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:31:22] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /eco give Ruby_HoshinoSan 1000
+[01:31:22] [Server thread/INFO]: $1,000 added to VIPRuby_HoshinoSan account. New balance: $11,002,220.15
+[01:31:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:32:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:32:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:33:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:33:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:34:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:34:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:35:19] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
+[01:35:49] [FancyAnalytics-JavaSDK/ERROR]: [FancyAnalytics] Unexpected exception while creating record: HTTP connect timed out
