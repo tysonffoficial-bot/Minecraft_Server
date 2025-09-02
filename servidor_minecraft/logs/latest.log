@@ -775,3 +775,9 @@ Caused by: java.lang.NoSuchMethodException: net.minecraft.resources.ResourceLoca
 [02:32:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skill
 [02:33:22] [Server thread/INFO]: Ruby_HoshinoSan has made the advancement [Isn't It Iron Pick]
 [02:34:28] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[02:42:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[02:43:04] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[02:43:10] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /segui
+[02:44:10] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 3
+[02:44:18] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[02:45:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /heal
