@@ -38,8 +38,8 @@ action_bar:
   idle: true
 locale: es
 jobs:
-- auraskills/alchemy
 - auraskills/agility
+- auraskills/alchemy
 last_job_select_time: 1756055131981
 stat_modifiers:
   '0':

@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1756518722953
-  login: 1756513029044
+  logout: 1756780042678
+  login: 1756780179811
   kits:
     color: 1755730040795
 money: '11004220.15000000000002'
@@ -25,11 +25,11 @@ last-account-name: Ruby_HoshinoSan
 logoutlocation:
   world: 0b5443e8-281b-4691-94ac-9bf342f6f7e2
   world-name: world
-  x: 999.2369139578573
-  y: 121.0625
-  z: 163.79948873489727
-  yaw: 35.1080322265625
-  pitch: 7.8000168800354
+  x: 1089.699999988079
+  y: 69.0
+  z: 278.69999998807907
+  yaw: -39.891963958740234
+  pitch: 85.5
 lastlocation:
   world: 0b5443e8-281b-4691-94ac-9bf342f6f7e2
   world-name: world
