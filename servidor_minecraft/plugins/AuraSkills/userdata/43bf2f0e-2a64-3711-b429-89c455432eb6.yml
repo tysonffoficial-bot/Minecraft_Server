@@ -23,7 +23,7 @@ skills:
     xp: 0.0
   auraskills/fighting:
     level: 100100
-    xp: 472708.0
+    xp: 500750.0
   auraskills/agility:
     level: 100
     xp: 7.716537870560011E7
@@ -48,32 +48,27 @@ stat_modifiers:
     operation: ADD
     value: 1.0
   '1':
-    name: mining-stamina
-    stat: auraskills/toughness
-    operation: ADD
-    value: 20.0
-  '2':
     name: AbilityModifier-EnchantedStrength
     stat: auraskills/strength
     operation: ADD
-    value: 10.0
-  '3':
+    value: 20.0
+  '2':
     name: AbilityModifier-WiseEffect
     stat: auraskills/wisdom
     operation: ADD
     value: 2040.0
-  '4':
+  '3':
     name: '150'
     stat: auraskills/speed
     operation: ADD
     value: 1.0
-  '5':
+  '4':
     name: '250'
     stat: auraskills/speed
     operation: ADD
     value: 1.0
 ability_data:
   auraskills/first_strike:
-    counter: 24
+    counter: 25
   auraskills/xp_convert:
-    xp: 1.6498000000002477
+    xp: 20.14980000000105

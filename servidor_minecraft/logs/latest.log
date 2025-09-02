@@ -781,3 +781,5 @@ Caused by: java.lang.NoSuchMethodException: net.minecraft.resources.ResourceLoca
 [02:44:10] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 3
 [02:44:18] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
 [02:45:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /heal
+[02:46:12] [Async Chat Thread - #1/INFO]: [Not Secure]  VIPRuby_HoshinoSan :buenas
+[02:46:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
