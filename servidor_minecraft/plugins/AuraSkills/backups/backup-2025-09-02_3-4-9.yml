@@ -1,0 +1,24 @@
+backup_version: 2
+users:
+    43bf2f0e-2a64-3711-b429-89c455432eb6:
+        skills:
+            auraskills/agility: {level: 100, xp: 7.716544738760011E7}
+            auraskills/archery: {level: 100100, xp: 0.0}
+            auraskills/alchemy: {level: 10201, xp: 1640000.0}
+            auraskills/farming: {level: 100, xp: 0.0}
+            auraskills/fishing: {level: 100, xp: 0.0}
+            auraskills/excavation: {level: 100, xp: 0.0}
+            auraskills/fighting: {level: 100100, xp: 500750.0}
+            auraskills/enchanting: {level: 100, xp: 0.0}
+            auraskills/foraging: {level: 100, xp: 0.0}
+            auraskills/mining: {level: 100, xp: 1.2804122341999999E8}
+            auraskills/defense: {level: 100100, xp: 0.0}
+        mana: 4600.0
+        stat_modifiers:
+        - {name: '100', stat: auraskills/crit_chance, operation: ADD, value: 1.0}
+        - {name: AbilityModifier-EnchantedStrength, stat: auraskills/strength, operation: ADD,
+            value: 20.0}
+        - {name: AbilityModifier-WiseEffect, stat: auraskills/wisdom, operation: ADD,
+            value: 2040.0}
+        - {name: '150', stat: auraskills/speed, operation: ADD, value: 1.0}
+        - {name: '250', stat: auraskills/speed, operation: ADD, value: 1.0}

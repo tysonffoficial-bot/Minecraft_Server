@@ -783,3 +783,160 @@ Caused by: java.lang.NoSuchMethodException: net.minecraft.resources.ResourceLoca
 [02:45:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /heal
 [02:46:12] [Async Chat Thread - #1/INFO]: [Not Secure]  VIPRuby_HoshinoSan :buenas
 [02:46:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[03:00:42] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[03:00:42] [Server thread/INFO]: [-] VIP Ruby_HoshinoSan
+[03:03:14] [User Authenticator #2/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
+[03:03:15] [Server thread/INFO]: Ruby_HoshinoSan[/127.36.204.11:48749] logged in with entity id 4968 at ([world]957.3886850237158, -1.0, 398.84919322391517)
+[03:03:15] [Server thread/INFO]: [+] VIP Ruby_HoshinoSan
+[03:03:33] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[03:03:58] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[03:03:58] [Server thread/INFO]: [-] VIP Ruby_HoshinoSan
+[03:04:09] [Server thread/INFO]: Stopping the server
+[03:04:09] [Server thread/INFO]: Stopping server
+[03:04:09] [Server thread/INFO]: [ZNPCsPlus] Disabling ZNPCsPlus v2.0.0
+[03:04:09] [Server thread/INFO]: [UberEnchant] Disabling UberEnchant v8.11.7
+[03:04:09] [Server thread/INFO]: [Multiverse-SignPortals] Disabling Multiverse-SignPortals v5.0.1
+[03:04:09] [Server thread/INFO]: [Multiverse-SignPortals] - Disabled
+[03:04:09] [Server thread/INFO]: [Veinminer-Enchantment] Disabling Veinminer-Enchantment v2.2.2
+[03:04:09] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.10
+[03:04:09] [Server thread/INFO]: [NexEngine] Disabling NexEngine v2.2.12
+[03:04:09] [Server thread/INFO]: [TAB] Disabling TAB v5.2.4
+[03:04:09] [Server thread/INFO]: [TAB] Disabled in 1ms
+[03:04:09] [Server thread/INFO]: [zMenu] Disabling zMenu v1.1.0.2
+[03:04:09] [Server thread/INFO]: [zMenu v1.1.0.2] === DISABLE START ===
+[03:04:09] [Server thread/INFO]: [zMenu v1.1.0.2] === DISABLE DONE (1ms) ===
+[03:04:09] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.14.4
+[03:04:09] [Server thread/INFO]: [SuperEnchants] Disabling SuperEnchants v3.2.0.1
+[03:04:09] [Server thread/INFO]: [NDailyRewards] Disabling NDailyRewards v3.3.0
+[03:04:09] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] NDailyRewards - Shutdown initiated...
+[03:04:09] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] NDailyRewards - Shutdown completed.
+[03:04:09] [Server thread/INFO]: [CommandAPI] Disabling CommandAPI v10.1.2
+[03:04:09] [Server thread/INFO]: [Tebex] Disabling Tebex v2.2.1
+[03:04:09] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.3.6
+[03:04:09] [Server thread/INFO]: [InventoryRollbackPlus] Disabling InventoryRollbackPlus v1.7.6
+[03:04:09] [Server thread/INFO]: [InventoryRollbackPlus] Setting shutdown state
+[03:04:09] [Server thread/INFO]: [InventoryRollbackPlus] Saving player inventories...
+[03:04:09] [Server thread/INFO]: [InventoryRollbackPlus] Done saving player inventories!
+[03:04:09] [Server thread/INFO]: [InventoryRollbackPlus] Plugin is disabled!
+[03:04:09] [Server thread/INFO]: [EnchantHandler] Disabling EnchantHandler v1.0
+[03:04:09] [Server thread/INFO]: [CrazyEnchantments] Disabling CrazyEnchantments v2.5.2
+[03:04:09] [Server thread/INFO]: [EnchantedBook] Disabling EnchantedBook v0.6.2
+[03:04:09] [Server thread/INFO]: [EnchantLimitRemover] Disabling EnchantLimitRemover v2.1
+[03:04:09] [Server thread/INFO]: [EnchantLimitRemover] ==================================================
+[03:04:09] [Server thread/INFO]: [EnchantLimitRemover] EnchantmentLimitRemover has been disabled!
+[03:04:09] [Server thread/INFO]: [EnchantLimitRemover] Thank you for using our plugin!
+[03:04:09] [Server thread/INFO]: [EnchantLimitRemover] ==================================================
+[03:04:09] [Server thread/INFO]: [CommandPanels] Disabling CommandPanels v3.22.5
+[03:04:09] [Server thread/INFO]: RockyHawk's CommandPanels Plugin Disabled, aww man.
+[03:04:09] [Server thread/INFO]: [CrazyCrates] Disabling CrazyCrates v4.9.8
+[03:04:09] [Server thread/INFO]: [nightcore] Disabling nightcore v2.7.12.4
+[03:04:09] [Server thread/INFO]: [SternalBoard] Disabling SternalBoard v2.3.2
+[03:04:09] [Server thread/INFO]: [AdvancedBanX] Disabling AdvancedBanX v3.1.0
+[03:04:09] [Server thread/INFO]: [AdvancedBanX] 
+
+[]=====[Disabling AdvancedBanX]=====[]
+| Information:
+|   Name: AdvancedBanX
+|   Developer: Leoko
+|   Maintainer & Updater: 2vY
+|   Version: 3.1.0
+|   Storage: HSQLDB (local)
+| Support:
+|   GitHub: https://github.com/hlpdev/AdvancedBanX/issues
+[]================================[]
+ 
+[03:04:09] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v5.1.1
+[03:04:09] [Server thread/INFO]: [FokusAPI] Disabling FokusAPI v2.8
+[03:04:09] [Server thread/INFO]: [ProtectionStones] Disabling ProtectionStones v2.10.5
+[03:04:09] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.21.2-dev+31-9ef4fc3
+[03:04:09] [Server thread/INFO]: [craftableinvframes] Disabling craftableinvframes v${version}
+[03:04:09] [Server thread/INFO]: [DoubleJump] Disabling DoubleJump v2.9.1
+[03:04:09] [Server thread/INFO]: [PlayerKits2] Disabling PlayerKits2 v1.18.2
+[03:04:09] [Server thread/INFO]: [PlayerKits²] Has been disabled! Version: 1.18.2
+[03:04:09] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v5.0.3
+[03:04:09] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
+[03:04:09] [Server thread/INFO]: [Veinminer] Disabling Veinminer v2.4.9
+[03:04:09] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.1
+[03:04:09] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.21.2-dev+31-9ef4fc3
+[03:04:09] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.3-SNAPSHOT
+[03:04:09] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[03:04:10] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[03:04:10] [Server thread/INFO]: [FancyHolograms] Disabling FancyHolograms v2.7.0
+[03:04:10] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13+82fdc65
+[03:04:10] [FancyLogger/INFO]: [FancyHolograms] (Server thread) INFO: Successfully disabled FancyHolograms version 2.7.0
+[03:04:10] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[03:04:10] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v5.1.0
+[03:04:10] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2-dev+31-9ef4fc3
+[03:04:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[03:04:10] [Server thread/INFO]: [FancyNpcs] Disabling FancyNpcs v2.7.1
+[03:04:10] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs has been disabled.
+[03:04:10] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[03:04:10] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1129;f295594
+[03:04:10] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[03:04:10] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.2.0
+[03:04:10] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[03:04:10] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion vault
+[03:04:10] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin Vault was disabled.
+[03:04:10] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[03:04:10] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.9
+[03:04:10] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[03:04:10] [Server thread/INFO]: [LuckPerms] Closing storage...
+[03:04:10] [Server thread/INFO]: [LuckPerms] Goodbye!
+[03:04:10] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.2
+[03:04:10] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[03:04:10] [Server thread/INFO]: Saving players
+[03:04:10] [WebSocketConnectReadThread-221/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[03:04:10] [Server thread/INFO]: Saving worlds
+[03:04:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Saved 14 block chunks, 67 entity chunks, 0 poi chunks in world 'world' in 0.08s
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[03:04:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[03:04:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 28 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[03:04:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[hypixel]'/minecraft:hypixel
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'hypixel'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'hypixel'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'hypixel'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 19 entity chunks, 0 poi chunks in world 'hypixel' in 0.01s
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'hypixel'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'hypixel'
+[03:04:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Survival]'/minecraft:survival
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Survival'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Survival'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Survival'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 22 entity chunks, 0 poi chunks in world 'Survival' in 0.02s
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Survival'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Survival'
+[03:04:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Parcelas]'/minecraft:parcelas
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Parcelas'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Parcelas'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Parcelas'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'Parcelas' in 0.00s
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Parcelas'
+[03:04:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Parcelas'
+[03:04:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:04:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:04:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:04:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (hypixel): All chunks are saved
+[03:04:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (Survival): All chunks are saved
+[03:04:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (Parcelas): All chunks are saved
+[03:04:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:04:10] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[03:04:10] [Server thread/INFO]: All I/O tasks to complete
+[03:04:10] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[03:04:10] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

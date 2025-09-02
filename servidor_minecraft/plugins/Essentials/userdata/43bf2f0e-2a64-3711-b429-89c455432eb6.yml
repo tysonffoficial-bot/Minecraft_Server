@@ -4,7 +4,7 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 127.36.204.11
-afk: true
+afk: false
 socialspy: false
 npc: false
 powertoolsenabled: true
@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1756780042678
-  login: 1756780179811
+  logout: 1756782238613
+  login: 1756782195210
   kits:
     color: 1755730040795
 money: '11004220.15000000000002'
@@ -25,11 +25,11 @@ last-account-name: Ruby_HoshinoSan
 logoutlocation:
   world: 0b5443e8-281b-4691-94ac-9bf342f6f7e2
   world-name: world
-  x: 1089.699999988079
-  y: 69.0
-  z: 278.69999998807907
-  yaw: -39.891963958740234
-  pitch: 85.5
+  x: 957.3886850237158
+  y: -1.0
+  z: 398.84919322391517
+  yaw: 124.35651397705078
+  pitch: 2.700004816055298
 lastlocation:
   world: 0b5443e8-281b-4691-94ac-9bf342f6f7e2
   world-name: world

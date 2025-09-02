@@ -26,7 +26,7 @@ skills:
     xp: 500750.0
   auraskills/agility:
     level: 100
-    xp: 7.716537870560011E7
+    xp: 7.716544738760011E7
   auraskills/excavation:
     level: 100
     xp: 0.0
@@ -71,4 +71,4 @@ ability_data:
   auraskills/first_strike:
     counter: 25
   auraskills/xp_convert:
-    xp: 20.14980000000105
+    xp: 6.831800000001046
