@@ -785,3 +785,17 @@ Caused by: java.lang.NoSuchMethodException: net.minecraft.resources.ResourceLoca
 [22:15:45] [Server thread/INFO]: Ruby_HoshinoSan[/127.36.204.11:52457] logged in with entity id 214 at ([world]957.3886850237158, -1.0, 398.84919322391517)
 [22:15:45] [Server thread/INFO]: [+] VIP Ruby_HoshinoSan
 [22:15:56] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[22:19:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /time set sunrise
+[22:19:37] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /time set sunset
+[22:19:48] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sun
+[22:20:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sun
+[22:21:23] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /sun 
+[22:21:23] [Server thread/INFO]: Error: When running from console, usage is: /sun <world> <storm/sun> [duration]
+[22:21:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /sun world
+[22:21:28] [Server thread/INFO]: Error: When running from console, usage is: /sun <world> <storm/sun> [duration]
+[22:21:33] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /sun world sun
+[22:21:33] [Server thread/INFO]: You set the weather to sun in world.
+[22:22:27] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /day
+[22:26:19] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skin u5d
+[22:26:31] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /day
+[22:26:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skin menu

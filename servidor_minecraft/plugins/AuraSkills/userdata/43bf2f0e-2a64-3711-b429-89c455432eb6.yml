@@ -38,8 +38,8 @@ action_bar:
   idle: true
 locale: es
 jobs:
-- auraskills/agility
 - auraskills/alchemy
+- auraskills/agility
 last_job_select_time: 1756055131981
 stat_modifiers:
   '0':
@@ -48,27 +48,22 @@ stat_modifiers:
     operation: ADD
     value: 1.0
   '1':
-    name: AbilityModifier-EnchantedStrength
-    stat: auraskills/strength
-    operation: ADD
-    value: 20.0
-  '2':
     name: AbilityModifier-WiseEffect
     stat: auraskills/wisdom
     operation: ADD
     value: 2040.0
-  '3':
+  '2':
     name: '150'
     stat: auraskills/speed
     operation: ADD
     value: 1.0
-  '4':
+  '3':
     name: '250'
     stat: auraskills/speed
     operation: ADD
     value: 1.0
 ability_data:
-  auraskills/first_strike:
-    counter: 25
   auraskills/xp_convert:
     xp: 6.831800000001046
+  auraskills/first_strike:
+    counter: 25
