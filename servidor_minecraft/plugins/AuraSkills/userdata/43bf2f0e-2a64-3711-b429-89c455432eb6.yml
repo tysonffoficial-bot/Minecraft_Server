@@ -23,16 +23,16 @@ skills:
     xp: 0.0
   auraskills/fighting:
     level: 100100
-    xp: 554831.0
+    xp: 592888.0
   auraskills/agility:
     level: 100
-    xp: 7.716544738760011E7
+    xp: 7.716549210560012E7
   auraskills/excavation:
     level: 100
-    xp: 2.0999999999999996
+    xp: 15.299999999999999
   auraskills/mining:
     level: 100
-    xp: 1.2804122341999999E8
+    xp: 1.2804122461999997E8
 mana: 4600.0
 action_bar:
   idle: true
@@ -48,22 +48,27 @@ stat_modifiers:
     operation: ADD
     value: 1.0
   '1':
+    name: foraging-valor
+    stat: auraskills/strength
+    operation: ADD
+    value: 20.0
+  '2':
     name: AbilityModifier-WiseEffect
     stat: auraskills/wisdom
     operation: ADD
     value: 2040.0
-  '2':
+  '3':
     name: '150'
     stat: auraskills/speed
     operation: ADD
     value: 1.0
-  '3':
+  '4':
     name: '250'
     stat: auraskills/speed
     operation: ADD
     value: 1.0
 ability_data:
   auraskills/xp_convert:
-    xp: 10.93179999999993
+    xp: 17.549799999999234
   auraskills/first_strike:
-    counter: 26
+    counter: 27
