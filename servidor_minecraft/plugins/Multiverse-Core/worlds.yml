@@ -39,12 +39,12 @@ Parcelas:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -87,7 +87,7 @@ Survival:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    water_ambient:
+    axolotl:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -97,17 +97,7 @@ Survival:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_animal:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_underground_creature:
+    ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -117,7 +107,17 @@ Survival:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    ambient:
+    water_animal:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    water_underground_creature:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -165,7 +165,7 @@ hypixel:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
+    ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -175,7 +175,7 @@ hypixel:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    ambient:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -218,7 +218,7 @@ world:
     pitch: -3.000019
     yaw: -89.40031
   spawning:
-    water_ambient:
+    axolotl:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -228,22 +228,7 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_animal:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    animal:
+    ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -253,7 +238,22 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    ambient:
+    water_animal:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    animal:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    water_ambient:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    water_underground_creature:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
