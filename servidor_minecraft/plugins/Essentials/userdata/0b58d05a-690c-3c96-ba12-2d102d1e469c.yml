@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1757109556632
+  logout: 1757110501287
+  login: 1757110279553
 money: '5000'
 last-account-name: DolphnXM
 lastlocation:
@@ -28,3 +28,11 @@ lastlocation:
   z: 229.5
   yaw: 0.0
   pitch: 0.0
+logoutlocation:
+  world: 0b5443e8-281b-4691-94ac-9bf342f6f7e2
+  world-name: world
+  x: 958.9902389034497
+  y: -1.0
+  z: 398.32765908379105
+  yaw: -76.20196533203125
+  pitch: 13.649978637695312
