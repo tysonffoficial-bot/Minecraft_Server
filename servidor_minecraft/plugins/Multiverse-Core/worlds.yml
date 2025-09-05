@@ -34,12 +34,12 @@ Parcelas:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    animal:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    monster:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -87,17 +87,12 @@ Survival:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    monster:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     water_ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    ambient:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -118,6 +113,11 @@ Survival:
       spawn-limit: -1
       exceptions: []
     misc:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -160,22 +160,22 @@ hypixel:
     pitch: -6.4500318
     yaw: -89.39938
   spawning:
-    animal:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    ambient:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
     misc:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -218,22 +218,12 @@ world:
     pitch: -3.000019
     yaw: -89.40031
   spawning:
-    animal:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    monster:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     water_ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    ambient:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -253,7 +243,17 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
+    animal:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
     misc:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
