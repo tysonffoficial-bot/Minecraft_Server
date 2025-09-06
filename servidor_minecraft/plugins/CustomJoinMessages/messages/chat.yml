@@ -1,0 +1,77 @@
+# Toggles whether chat messages should be sent.
+Enabled: true
+
+Public:
+  # Whether public chat messages should be sent to the server's console.
+  Send-To-Console: true
+  First-Join:
+    1:
+      Permission: cjm.default
+      Radius: -1
+      Max-Players: -1
+      Messages:
+        1:
+          - "&a%name% &7has joined the server for the first time! &8(&a#%uniquejoins%&8)"
+  Join:
+    1:
+      Permission: cjm.default
+      Messages:
+        1:
+          - ""
+  Quit:
+    1:
+      Permission: cjm.default
+      Messages:
+        1:
+          - ""
+
+Private:
+  First-Join:
+    1:
+      Permission: cjm.default
+      Messages:
+        1:
+          - "&7Bienvendido A El Servidor %player_name%!"
+  Join:
+    1:
+      Permission: cjm.default
+      Messages:
+        1:
+          - "&7Bienvenido De Nuevo %vault_prefix%&6%player_name%%vault_suffix%"
+Vip:
+  # Whether public chat messages should be sent to the server's console.
+  Send-To-Console: true
+  First-Join:
+    1:
+      Permission: cjm.vip
+      Radius: -1
+      Max-Players: -1
+      Messages:
+        1:
+          - "%vault_prefix%%name%%vault_suffix% &7! &8(&a#%uniquejoins%&8)"
+  Join:
+    1:
+      Permission: cjm.vip
+      Messages:
+        1:
+          - "&8Bienvenido %vault_prefix%%player_name% &8Al Servidor"
+  Quit:
+    1:
+      Permission: cjm.default
+      Messages:
+        1:
+          - ""
+
+Private:
+  First-Join:
+    1:
+      Permission: cjm.default
+      Messages:
+        1:
+          - "&7Bienvendido A El Servidor %player_name%!"
+  Join:
+    1:
+      Permission: cjm.default
+      Messages:
+        1:
+          - "&7Bienvenido De Nuevo %vault_prefix%&6%player_name%%vault_suffix%"

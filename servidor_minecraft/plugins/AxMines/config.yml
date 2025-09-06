@@ -1,0 +1,10 @@
+update-checker:
+  #Enable this, if you want the plugin to check for updates
+  enabled: true
+  #Enable this, if you want the plugin to check for updates
+  #and send messages to users with the axmines.updatecheck.onjoin permission.
+  #This only works if the update checker is enabled!
+  message-on-join: true
+#Whether to send debug messages to the console
+#debug: false
+debug: false

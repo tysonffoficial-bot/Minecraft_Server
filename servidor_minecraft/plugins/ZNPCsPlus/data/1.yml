@@ -13,13 +13,13 @@ location:
 type: player
 properties:
   skin_hat: 'true'
-  skin_right_sleeve: 'true'
   skin_cape: 'true'
-  skin_left_sleeve: 'true'
-  skin_right_leg: 'true'
   skin_jacket: 'true'
   skin_left_leg: 'true'
+  skin_right_leg: 'true'
   skin: fetching;Ruby_HoshinoSan
+  skin_left_sleeve: 'true'
+  skin_right_sleeve: 'true'
 hologram:
   lines: []
 actions: []

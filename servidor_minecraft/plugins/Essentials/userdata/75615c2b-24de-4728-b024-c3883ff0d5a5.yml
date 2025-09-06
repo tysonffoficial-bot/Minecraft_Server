@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1757125324783
-  login: 1757123033427
+  logout: 1757170079355
+  login: 1757169816696
   kits:
     color: 1757120995016
 money: '30000'
@@ -25,10 +25,10 @@ last-account-name: DolphnXM
 logoutlocation:
   world: 0b5443e8-281b-4691-94ac-9bf342f6f7e2
   world-name: world
-  x: 909.0270786500008
-  y: 69.0625
-  z: 215.32907327539513
-  yaw: 174.601318359375
-  pitch: 9.299970626831055
+  x: 959.484423369718
+  y: 121.0625
+  z: 116.95097576648217
+  yaw: -4.949112415313721
+  pitch: -5.249989032745361
 past-usernames:
 - Ruby_HoshinoSan
