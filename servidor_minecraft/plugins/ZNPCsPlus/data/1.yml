@@ -12,14 +12,14 @@ location:
   pitch: -0.0
 type: player
 properties:
-  skin_hat: 'true'
-  skin_cape: 'true'
-  skin_jacket: 'true'
-  skin_left_leg: 'true'
   skin_right_leg: 'true'
-  skin: fetching;Ruby_HoshinoSan
-  skin_left_sleeve: 'true'
   skin_right_sleeve: 'true'
+  skin_left_leg: 'true'
+  skin_left_sleeve: 'true'
+  skin_jacket: 'true'
+  skin_cape: 'true'
+  skin_hat: 'true'
+  skin: fetching;Ruby_HoshinoSan
 hologram:
   lines: []
 actions: []

@@ -34,12 +34,12 @@ Parcelas:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    misc:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -87,12 +87,12 @@ Survival:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    water_underground_creature:
+    axolotl:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    axolotl:
+    water_underground_creature:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -112,12 +112,12 @@ Survival:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    monster:
+    water_ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    water_ambient:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -160,12 +160,12 @@ hypixel:
     pitch: -6.4500318
     yaw: -89.39938
   spawning:
-    misc:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -218,22 +218,22 @@ world:
     pitch: -3.000019
     yaw: -89.40031
   spawning:
-    water_underground_creature:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     axolotl:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
+    water_underground_creature:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -248,12 +248,12 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    monster:
+    water_ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    water_ambient:
+    monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1

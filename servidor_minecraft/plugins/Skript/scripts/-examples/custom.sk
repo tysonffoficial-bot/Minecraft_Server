@@ -1,0 +1,10 @@
+ on join:
+   if player has played before:
+    set join message to "&8Bienvenido %vault_prefix%%player_name% &8Al Servidor"
+   else:
+    set join message to "%vault_prefix%%name%%vault_suffix% &7Se A Unido A Nuestro Servidor"
+
+
+ on quit:
+  set quit message to "%vault_prefix%%name%%vault_suffix% &7Se A Desconectado De Nuestro Servidor"
+   
