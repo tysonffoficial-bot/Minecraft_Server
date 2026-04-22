@@ -1,0 +1,4 @@
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Loading plugin managers...","timestamp":1757204495306,"threadID":41,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Enabled integration PlaceholderAPI","timestamp":1757204495390,"threadID":41,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Registering listeners...","timestamp":1757204495399,"threadID":41,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Successfully enabled (took 968ms)","timestamp":1757204496131,"threadID":41,"threadName":"Server thread","properties":{}}

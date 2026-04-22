@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.revxrsal</groupId>
+  <artifactId>lamp.bukkit</artifactId>
+  <version>4.0.0-rc.12</version>
+  <name>Lamp</name>
+  <description>A modern annotation-driven commands framework for Java</description>
+  <url>https://github.com/Revxrsal/Lamp/</url>
+  <inceptionYear>2024</inceptionYear>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://mit-license.org/</url>
+      <distribution>https://mit-license.org/</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>revxrsal</id>
+      <name>Revxrsal</name>
+      <url>https://github.com/Revxrsal/</url>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Revxrsal/Lamp.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/Revxrsal/Lamp.git</developerConnection>
+    <url>https://github.com/Revxrsal/Lamp/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.revxrsal</groupId>
+      <artifactId>lamp.common</artifactId>
+      <version>4.0.0-rc.12</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.github.revxrsal</groupId>
+      <artifactId>lamp.brigadier</artifactId>
+      <version>4.0.0-rc.12</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,11 @@
+{"loggerName":"FancyNpcs","logLevel":"WARN","message":"You are not using the latest version of the FancyNpcs plugin.","timestamp":1764436306124,"threadID":56,"threadName":"ForkJoinPool.commonPool-worker-1","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.7.1) has been enabled.","timestamp":1764436306309,"threadID":47,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs has been disabled.","timestamp":1764436453743,"threadID":47,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"WARN","message":"You are not using the latest version of the FancyNpcs plugin.","timestamp":1764436875744,"threadID":49,"threadName":"ForkJoinPool.commonPool-worker-1","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.7.1) has been enabled.","timestamp":1764436876040,"threadID":40,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs has been disabled.","timestamp":1764437163795,"threadID":40,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"WARN","message":"You are not using the latest version of the FancyNpcs plugin.","timestamp":1764437232844,"threadID":49,"threadName":"ForkJoinPool.commonPool-worker-1","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.7.1) has been enabled.","timestamp":1764437233033,"threadID":40,"threadName":"Server thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs has been disabled.","timestamp":1764438626312,"threadID":52,"threadName":"Paper Watchdog Thread","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"WARN","message":"You are not using the latest version of the FancyNpcs plugin.","timestamp":1764438761646,"threadID":49,"threadName":"ForkJoinPool.commonPool-worker-1","properties":{}}
+{"loggerName":"FancyNpcs","logLevel":"INFO","message":"FancyNpcs (2.7.1) has been enabled.","timestamp":1764438761922,"threadID":40,"threadName":"Server thread","properties":{}}

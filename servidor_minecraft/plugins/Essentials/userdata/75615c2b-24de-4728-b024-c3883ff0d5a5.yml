@@ -1,0 +1,42 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: true
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761452735159
+  login: 1761452188106
+  kits:
+    color: 1757818172640
+money: '30000'
+last-account-name: DolphnXM
+logoutlocation:
+  world: 0b5443e8-281b-4691-94ac-9bf342f6f7e2
+  world-name: world
+  x: 919.4048225879674
+  y: 64.0625
+  z: 212.94940138746807
+  yaw: 163.05003356933594
+  pitch: 30.300037384033203
+past-usernames:
+- Ruby_HoshinoSan
+lastlocation:
+  world: 1fba50ed-6455-4ea8-8e36-36895f885f01
+  world-name: world_nether
+  x: 25.30000001192093
+  y: 77.60207107025816
+  z: 2.9195068794887766
+  yaw: 35.849761962890625
+  pitch: -5.543231964111328E-6

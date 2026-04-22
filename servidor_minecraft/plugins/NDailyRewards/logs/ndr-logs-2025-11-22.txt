@@ -1,0 +1,16 @@
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Loading plugin managers...","timestamp":1763775395273,"threadID":41,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Enabled integration PlaceholderAPI","timestamp":1763775395385,"threadID":41,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Registering listeners...","timestamp":1763775395392,"threadID":41,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Successfully enabled (took 935ms)","timestamp":1763775396012,"threadID":41,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Loading plugin managers...","timestamp":1763830947633,"threadID":40,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Enabled integration PlaceholderAPI","timestamp":1763830947727,"threadID":40,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Registering listeners...","timestamp":1763830947735,"threadID":40,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Successfully enabled (took 1003ms)","timestamp":1763830948419,"threadID":40,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Loading plugin managers...","timestamp":1763831051546,"threadID":41,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Enabled integration PlaceholderAPI","timestamp":1763831051631,"threadID":41,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Registering listeners...","timestamp":1763831051641,"threadID":41,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Successfully enabled (took 954ms)","timestamp":1763831052320,"threadID":41,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Loading plugin managers...","timestamp":1763842843900,"threadID":40,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Enabled integration PlaceholderAPI","timestamp":1763842844004,"threadID":40,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Registering listeners...","timestamp":1763842844016,"threadID":40,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Successfully enabled (took 1026ms)","timestamp":1763842844773,"threadID":40,"threadName":"Server thread","properties":{}}

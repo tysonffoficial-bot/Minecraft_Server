@@ -1,0 +1,5 @@
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Loading plugin managers...","timestamp":1776895670133,"threadID":42,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Enabled integration PlaceholderAPI","timestamp":1776895670223,"threadID":42,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Registering listeners...","timestamp":1776895670229,"threadID":42,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"INFO","message":"Successfully enabled (took 991ms)","timestamp":1776895670966,"threadID":42,"threadName":"Server thread","properties":{}}
+{"loggerName":"NDailyRewards","logLevel":"WARN","message":"A new version of NDailyRewards is available!\nYour version: 3.3.0\nNewest version: 3.4.0\nDownload it at: https://modrinth.com/plugin/ndailyrewards\n","timestamp":1776895671032,"threadID":51,"threadName":"ForkJoinPool.commonPool-worker-1","properties":{}}

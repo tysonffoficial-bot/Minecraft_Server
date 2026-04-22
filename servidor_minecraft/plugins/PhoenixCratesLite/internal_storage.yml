@@ -1,0 +1,5 @@
+items:
+  lime_dye:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: LIME_DYE

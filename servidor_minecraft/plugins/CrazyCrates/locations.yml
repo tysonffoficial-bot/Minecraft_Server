@@ -1,0 +1,19 @@
+Locations:
+  '1':
+    Crate: CosmicCrate
+    World: world
+    X: 968
+    Y: 122
+    Z: 103
+  '2':
+    Crate: CosmicCrate
+    World: world
+    X: 1329
+    Y: 175
+    Z: 745
+  '3':
+    Crate: CosmicCrate
+    World: world
+    X: 1329
+    Y: 174
+    Z: 744

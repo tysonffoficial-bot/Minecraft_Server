@@ -1,0 +1,135 @@
+configuration_version: v5
+worlds:
+  parcelas:
+    plot:
+      height: 62
+      biome: minecraft:forest
+      sign_material: OAK_WALL_SIGN
+      size: 34
+      filling: '12'
+      auto_merge: false
+      bedrock: true
+      create_signs: true
+      floor: '2'
+    wall:
+      filling: minecraft:stone
+      block_claimed: minecraft:sandstone_slab
+      height: 62
+      block: minecraft:stone_slab
+      place_top_block: true
+    misc_spawn_unowned: false
+    road:
+      block: minecraft:quartz_block
+      flags: {}
+      height: 62
+      width: 7
+    home:
+      nonmembers: side
+      default: side
+    world:
+      component_below_bedrock: false
+      max_gen_height: 319
+      max_height: 320
+      gamemode: creative
+      min_gen_height: -64
+      min_height: -63
+      border_size: 1
+      border: false
+    schematic:
+      specify_on_claim: false
+      on_claim: false
+      file: 'null'
+      schematics: []
+    chat:
+      forced: false
+      enabled: true
+    economy:
+      prices:
+        merge: 100
+        sell: 100
+        claim: 100
+      use: false
+    event:
+      spawn:
+        egg: false
+        breeding: false
+        custom: true
+    natural_mob_spawning: false
+    mob_spawner_spawning: false
+    flags: {}
+  Parcelas:
+    plot:
+      height: 64
+      size: 34
+      filling: 1:0,1:3,24
+      floor: grass_block
+      bedrock: true
+    wall:
+      place_top_block: true
+      block: '44'
+      block_claimed: '44'
+      filling: '1'
+      height: 64
+    road:
+      width: 7
+      height: 64
+      block: '5'
+    world:
+      component_below_bedrock: false
+  parcelas2:
+    plot:
+      height: 64
+      size: 34
+      filling: 1:0,1:3,24
+      floor: grass_block
+      bedrock: true
+      biome: minecraft:forest
+      sign_material: OAK_WALL_SIGN
+      auto_merge: false
+      create_signs: true
+    wall:
+      place_top_block: true
+      block: '44'
+      block_claimed: '7'
+      filling: '1'
+      height: 64
+    road:
+      width: 7
+      height: 64
+      block: '5'
+      flags: {}
+    world:
+      component_below_bedrock: true
+      max_gen_height: 319
+      max_height: 320
+      gamemode: creative
+      min_gen_height: -64
+      min_height: -63
+      border_size: 1
+      border: false
+    misc_spawn_unowned: false
+    home:
+      nonmembers: side
+      default: side
+    schematic:
+      specify_on_claim: false
+      on_claim: false
+      file: 'null'
+      schematics: []
+    chat:
+      forced: false
+      enabled: true
+    economy:
+      prices:
+        merge: 100
+        sell: 100
+        claim: 100
+      use: false
+    event:
+      spawn:
+        egg: false
+        breeding: false
+        custom: true
+    natural_mob_spawning: false
+    mob_spawner_spawning: false
+    flags: {}

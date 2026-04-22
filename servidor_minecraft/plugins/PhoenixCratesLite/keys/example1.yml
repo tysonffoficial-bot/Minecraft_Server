@@ -1,0 +1,11 @@
+enabled: true
+identifier: llave_basica
+virtual: false
+glow: true
+item:
+  material: TRIPWIRE_HOOK
+  display-name: '&a&lLlave Basica'
+  lore:
+  - '&a Llave para abrir cajas basicas.'
+  - '&a Usala En /warp crates'
+  - '&eUse this key in &6%crate%&e!'

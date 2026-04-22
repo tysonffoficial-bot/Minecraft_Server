@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.59.227.239
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1776896094766
+  lastheal: 1776714479445
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1776896804929
+  login: 1776895713065
+money: '27888842639.26'
+last-account-name: DolphnXM
+lastlocation:
+  world: b0a3b0cf-46f5-46da-aba9-007ce7c3e334
+  world-name: Balatro
+  x: -62.35088599411471
+  y: 82.1791800578397
+  z: -7.748383360473681
+  yaw: 56.98272705078125
+  pitch: 1.2141047716140747
+logoutlocation:
+  world: b0a3b0cf-46f5-46da-aba9-007ce7c3e334
+  world-name: Balatro
+  x: 743.3807056193311
+  y: 64.0
+  z: 347.17212299086776
+  yaw: 104.60506439208984
+  pitch: 37.931190490722656

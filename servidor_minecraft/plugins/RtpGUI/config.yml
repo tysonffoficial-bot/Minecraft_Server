@@ -1,0 +1,109 @@
+gui:
+  size: 27
+  title: '&8ʀᴛᴘᴍᴇɴᴜ'
+  fill-background: false
+  background-material: GRAY_STAINED_GLASS_PANE
+
+# enable/disable base world buttons
+overworld-rtp: true
+nether-rtp: true
+end-rtp: true
+
+# base worlds configuration
+worlds:
+  overworld:
+    material: GRASS_BLOCK
+    display-name: <#00FF00>🌍 <b><gradient:#27EEDB:#26D373>mund</gradient><gradient:#26D373:#26D373>o Normal rtp</gradient></b>
+    lore:
+      - '&f&l| <b><gradient:#27EEDB:#26D373>teletrasp</gradient><gradient:#26D373:#26D373>ortate en un lugar aleatorio</gradient></b>'
+      - '&f&l| <b><gradient:#27EEDB:#26D373>del mundo normal</gradient></b>'
+      - '&f&l| <b><gradient:#27EEDB:#26D373>click para teletrasportarte ahora!</gradient></b>'
+    command: betterrtp player %player% world
+  nether:
+    material: NETHERRACK
+    display-name: <#FF5500>🔥 Nether RTP
+    lore:
+      - '&f&l| <#FF5500>Teleport &fto a random'
+      - '&f&l| &flocation in <#FF5500>The Nether'
+      - '&f&l| &fClick to <#FF5500>teleport &fnow!'
+    command: betterrtp player %player% world_nether
+  end:
+    material: END_STONE
+    display-name: <#F7E07A>🪨 The End RTP
+    lore:
+      - '&f&l| <#F7E07A>Teleport &fto a random'
+      - '&f&l| &flocation in the <#F7E07A>The End'
+      - '&f&l| &fClick to <#F7E07A>teleport &fnow!'
+    command: betterrtp player %player% world_the_end
+
+# custom worlds (disabled by default)
+# their command is set to: betterrtp player %player% <world_name>
+# plugin will replace <world_name> with the customworld key or the world-name value if set.
+customworlds:
+  customworld1:
+    enabled: false
+    slot: 0
+    item-material: DIAMOND
+    item-display-name: <#FF00FF>Custom 1
+    item-lore:
+      - Click to run custom command 1
+    command: betterrtp player %player% <world_name>
+    # optional: world-name: "my_custom_world_name"
+  customworld2:
+    enabled: false
+    slot: 1
+    item-material: EMERALD
+    item-display-name: <#00FFFF>Custom 2
+    item-lore:
+      - Click to run custom command 2
+    command: betterrtp player %player% <world_name>
+  customworld3:
+    enabled: false
+    slot: 2
+    item-material: GOLD_INGOT
+    item-display-name: <#FFD700>Custom 3
+    item-lore:
+      - Click to run custom command 3
+    command: betterrtp player %player% <world_name>
+  customworld4:
+    enabled: false
+    slot: 3
+    item-material: REDSTONE
+    item-display-name: <#FF0000>Custom 4
+    item-lore:
+      - Click to run custom command 4
+    command: betterrtp player %player% <world_name>
+  customworld5:
+    enabled: false
+    slot: 4
+    item-material: LAPIS_LAZULI
+    item-display-name: <#0000FF>Custom 5
+    item-lore:
+      - Click to run custom command 5
+    command: betterrtp player %player% <world_name>
+  customworld6:
+    enabled: false
+    slot: 5
+    item-material: QUARTZ
+    item-display-name: <#FFFFFF>Custom 6
+    item-lore:
+      - Click to run custom command 6
+    command: betterrtp player %player% <world_name>
+
+# material picker options
+material-picker:
+  filler: GRAY_STAINED_GLASS_PANE
+
+# messages
+messages:
+  material-picker-title: <#00AAFF>Choose material for %world%
+  material-saved: '&aSaved material for %world%!'
+  material-removed: '&cRemoved material for %world%!'
+  reloaded: '&aRtpGUI config reloaded.'
+  no-perm: '&cYou don''t have permission to do that.'
+  usage: '&cUsage: /rtpgui <reload|material>'
+  usage-material: '&cUsage: /rtpgui material <overworld|nether|end|customworld1|customworld2|customworld3|customworld4|customworld5|customworld6>'
+  invalid-world: '&cInvalid world key.'
+
+# sound when clicking (we use ENTITY_EXPERIENCE_ORB_PICKUP)
+click-sound: ENTITY_EXPERIENCE_ORB_PICKUP

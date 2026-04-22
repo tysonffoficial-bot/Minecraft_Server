@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.59.227.239
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1776896795981
+  login: 1776896644616
+money: '5000'
+last-account-name: unfeminine
+lastlocation:
+  world: b0a3b0cf-46f5-46da-aba9-007ce7c3e334
+  world-name: Balatro
+  x: 770.9778363558463
+  y: 62.156032544517416
+  z: 385.9195428745151
+  yaw: 94.29267120361328
+  pitch: -57.902469635009766
+logoutlocation:
+  world: b0a3b0cf-46f5-46da-aba9-007ce7c3e334
+  world-name: Balatro
+  x: 742.7337466866652
+  y: 64.0
+  z: 345.28026815087964
+  yaw: -21.83628273010254
+  pitch: 27.30843734741211

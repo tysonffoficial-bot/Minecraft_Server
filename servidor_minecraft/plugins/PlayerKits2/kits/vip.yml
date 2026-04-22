@@ -1,0 +1,78 @@
+cooldown: 86400
+one_time: false
+auto_armor: false
+permission_required: true
+clear_inventory: false
+save_original_items: true
+allow_placeholders_on_original_items: false
+display:
+  default:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&fThis is a description of the kit.'
+    - ''
+    - '&7Edit it on the &c%kit_name%.yml &7file'
+    - '&7or using &c/kit edit %kit_name%'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou don''t have permissions to claim'
+    - '&cthis kit.'
+  cooldown:
+    id: BARRIER
+    name: '&c&l%kit_name% &bKit'
+    amount: 1
+    lore:
+    - '&cNecesitas Esperar &7%time%'
+    - '&cPara Reclamar Este Kit.'
+    item_flags:
+    - HIDE_ATTRIBUTES
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: LIME_SHULKER_BOX
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"text":"","extra":[{"text":"k","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#54F486"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#55E777"},{"text":"t
+          ","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#57DA69"},{"text":"v","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#59BF4B"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5BB23D"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5CA52E"}]}'
+        internal: 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
+        blockMaterial: LIME_SHULKER_BOX
+    preview_slot: 0
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"G","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#54F486"},{"text":"R","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#54F082"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#55EC7D"},{"text":"C","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#55E879"},{"text":"I","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#56E474"},{"text":"A","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#56E070"},{"text":"S
+          ","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#56DC6C"},{"text":"%","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#57D463"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#58D05E"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#58CD5A"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#58C956"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#59C551"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#59C14D"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5ABD48"},{"text":"_","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5AB944"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5AB540"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5BB13B"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5BAD37"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5CA932"},{"text":"%","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5CA52E"}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"p","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#54F486"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#54F082"},{"text":"r
+          ","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#55ED7E"},{"text":"c","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#55E676"},{"text":"o","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#56E272"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#56DE6E"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#57DB6A"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#57D766"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#57D462"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#58D05E"},{"text":"/","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#58CD5A"},{"text":"r","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#58C956"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#59C552"},{"text":"c","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#59C24E"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#59BE4A"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5ABB46"},{"text":"m","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5AB742"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5BB33E"},{"text":"r
+          ","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5BB03A"},{"text":"e","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5CA932"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5CA52E"}]}'
+        - '{"text":"","extra":[{"text":"k","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#54F486"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#55E777"},{"text":"t
+          ","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#57DA69"},{"text":"v","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#59BF4B"},{"text":"i","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5BB23D"},{"text":"p","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5CA52E"}]}'
+        - '{"text":"","extra":[{"text":"a","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#54D4F4"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#56C5ED"},{"text":"t","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#59B6E6"},{"text":":","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5BA7DE"},{"text":"H","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5D98D7"},{"text":"y","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#5F89D0"},{"text":"l","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#6279C9"},{"text":"a","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#646AC2"},{"text":"n","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#665BBB"},{"text":"d","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#684CB3"},{"text":"M","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#6B3DAC"},{"text":"C","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"#6D2EA5"}]}'
+    preview_slot: 1
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

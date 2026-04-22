@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.215.55.45
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1774726849127
+  login: 1774726658779
+money: '5000'
+last-account-name: nane
+lastlocation:
+  world: a837b9bc-2aac-4b3f-a6cd-72bf40fb5b98
+  world-name: hypixel
+  x: -53.758658511887965
+  y: 95.0
+  z: -5.4296311692846535
+  yaw: -110.24911499023438
+  pitch: 23.550249099731445
+logoutlocation:
+  world: b0a3b0cf-46f5-46da-aba9-007ce7c3e334
+  world-name: Balatro
+  x: 521.5
+  y: 63.0
+  z: 364.5
+  yaw: -144.60003662109375
+  pitch: -3.4499166011810303

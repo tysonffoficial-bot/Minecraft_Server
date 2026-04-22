@@ -1,0 +1,56 @@
+version: 2 # DO NOT CHANGE
+holograms:
+  crazycrates-2:
+    type: TEXT
+    location:
+      world: world
+      x: 1329.5
+      y: 176.5
+      z: 745.5
+      yaw: 0.0
+      pitch: 0.0
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - <bold><light_purple>Cosmic Crate</bold>
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent
+  crazycrates-3:
+    type: TEXT
+    location:
+      world: world
+      x: 1329.5
+      y: 175.5
+      z: 744.5
+      yaw: 0.0
+      pitch: 0.0
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - <bold><light_purple>Cosmic Crate</bold>
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+    background: transparent

@@ -1,0 +1,17 @@
+spawns:
+  default:
+    world: a837b9bc-2aac-4b3f-a6cd-72bf40fb5b98
+    world-name: hypixel
+    x: -52.43765998991065
+    y: 96.0
+    z: 0.4730493452878328
+    yaw: -89.39923095703125
+    pitch: -1.0497543811798096
+  all:
+    world: a837b9bc-2aac-4b3f-a6cd-72bf40fb5b98
+    world-name: hypixel
+    x: -52.43765998991065
+    y: 96.0
+    z: 0.4730493452878328
+    yaw: -89.39923095703125
+    pitch: -1.0497543811798096

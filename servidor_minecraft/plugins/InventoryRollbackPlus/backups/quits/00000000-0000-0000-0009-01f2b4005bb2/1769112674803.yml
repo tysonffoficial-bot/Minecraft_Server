@@ -1,0 +1,11 @@
+xp: 0.0
+health: 17.466663360595703
+hunger: 15
+saturation: 0.0
+location:
+  world: Balatro
+  x: 451.2
+  y: 75.5
+  z: 441.2
+logType: QUIT
+version: v1_21_R3

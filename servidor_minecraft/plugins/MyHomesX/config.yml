@@ -1,0 +1,16 @@
+prefix: "<bold><gradient:#1e90ff:#8a2be2>[MyHomes]</gradient></bold> "
+edition: NETWORK # LITE | PRO | NETWORK
+
+gui:
+  animation:
+    enabled: true
+    tick-interval: 2
+
+network:
+  redis:
+    enabled: false
+    host: localhost
+    port: 6379
+
+metrics:
+  enabled: true

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.126.221.222
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1755733780265
+  login: 1755731781277
+money: '97.32'
+last-account-name: InamHilen
+lastlocation:
+  world: 0b5443e8-281b-4691-94ac-9bf342f6f7e2
+  world-name: world
+  x: 1138.5
+  y: 68.0
+  z: 219.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: a837b9bc-2aac-4b3f-a6cd-72bf40fb5b98
+  world-name: hypixel
+  x: -31.279783267904453
+  y: 92.0
+  z: -5.66770707444805
+  yaw: 141.60142517089844
+  pitch: 22.799968719482422

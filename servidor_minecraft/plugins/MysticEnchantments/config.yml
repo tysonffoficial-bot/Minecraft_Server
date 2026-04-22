@@ -1,0 +1,58 @@
+# The Mystic Coins Price of Basic Enchantments Tier (Tier 1) - Decimals Number - Minimum Value: 1 - Default Value: 50.0
+basic-enchantments-price: 50.0
+
+# The Mystic Coins Price of Enhanced Enchantments Tier (Tier 2) - Decimals Number - Minimum Value: 1 - Default Value: 120.0
+enhanced-enchantments-price: 120.0
+
+# The Price of Mystic Insight Buff in Mystic Options - Decimals Number - Minimum Value: 0 - Default Value: 40.0
+mystic-insight-perk-price: 40.0
+
+# The Mystic Coins Price of Refined Enchantments Tier (Tier 3) - Decimals Number - Minimum Value: 1 - Default Value: 215.0
+refined-enchantments-price: 215.0
+
+# The Mystic Coins Price of Elite Enchantments Tier (Tier 4) - Decimals Number - Minimum Value: 1 - Default Value: 365.0
+elite-enchantments-price: 365.0
+
+# The Mystic Coins Price of Mythic Enchantments Tier (Tier 5) - Decimals Number - Minimum Value: 1 - Default Value: 500.0
+mythic-enchantments-price: 500.0
+
+# Basic Tier accessible through the GUI - true/false - Default Value: true
+basic-enchantments-access: true
+
+# Enhanced Tier accessible through the GUI - true/false - Default Value: true
+enhanced-enchantments-access: true
+
+# Refined Tier accessible through the GUI - true/false - Default Value: true
+refined-enchantments-access: true
+
+# Elite Tier accessible through the GUI - true/false - Default Value: true
+elite-enchantments-access: true
+
+# Mythic Tier accessible through the GUI - true/false - Default Value: true
+mythic-enchantments-access: true
+
+# All Registrations flagged with 'Api Mode' will not be registered if this is set to true, all Mystic Enchantments content is flagged with 'Api Mode'
+# Best used if you want to make your own registrations through add-ons
+# All Mystic Enchantments Content will be removed - true/false - Default Value: false
+api-mode: false
+
+# The Enchantments ids or names listed will be blocked from registration - List - Default Value: []
+blocked-enchantments: []
+# The Mystic Coins Price Of Purity Crystal In Mystic Options - Decimals Number - Minimum Value: 1 - Default Value: 400.0
+purity-crystal-price: 400.0
+
+# The Mystic Coins Price Of The Anvil In Mystic Options - Decimals Number - Minimum Value: 1 - Default Value: 2.0
+anvil-price: 2.0
+
+# The amount of Effort points the player should get to level up - Decimals Number - Minimum Value: 100 - Default Value: 600.0
+needed-effort-points: 600.0
+
+# Show Mystic Recipes in the Mystic Enchanter - true/false - Default Value: true
+enable-mystic-recipes: true
+
+# Show Mystic Crate in the Mystic Enchanter - true/false - Default Value: true
+enable-mystic-crate: true
+
+# If true, Mystic Resources will be able to be collected and used with all Mystic Resources Features - true/false - Default Value: true
+enable-mystic-resources: true
+

@@ -1,0 +1,71 @@
+enabled: true
+identifier: basica
+display-name: Basica
+block-material: LIME_SHULKER_BOX
+engine: VANILLA_BLOCK
+open-money-cost: 0.0
+open-cooldown: 0
+simultaneous-openings: true
+preview-item: false
+permission:
+  required: false
+  permission: phoenixcrates.crate.basica
+animation:
+  idle-effects:
+  - DEFAULT;{REDSTONE;#ff0000;0.0;0.0;0.0;1.0;0.1;2}
+  - DEFAULT;{FLAME;#ffffff;0.0;0.0;0.0;2.0;0.1;2}
+  - STAR;{SMOKE_NORMAL;#ffffff;0.0;0.0;0.0;0.0;0.0;2}
+  opening-animations:
+    '0':
+    - DEFAULT;{}
+    - NONE;{}
+    - DEFAULT;{#ffffff}
+hologram:
+  lines:
+  - '&e&l%name% Crate'
+  - ''
+  - '&aʀɪɢʜᴛ &7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+  - '&cʟᴇꜰᴛ &7ᴄʟɪᴄᴋ ᴛᴏ ᴘʀᴇᴠɪᴇᴡ'
+  offset: 0.0
+menus:
+  rewards: default_rewards_preview
+  select-reward: default_select_reward
+key-required: true
+linked-keys-ids:
+- example2
+broadcast:
+  message: '&ePlayer &a%player% &ejust got &6"%reward%" &ereward from the crate &6%crate%&e!'
+max-win-rewards: 0
+rewards-mode: RANDOM
+guaranteed-reward-type: SEQUENTIAL
+rewards:
+  '0':
+    identifier: rango_vip_30d
+    display-item:
+      material: custom:lime_dye
+      display-name: '&x&2&7&E&E&D&B&lR&x&2&7&E&C&D&2&la&x&2&7&E&A&C&A&ln&x&2&7&E&7&C&1&lg&x&2&7&E&5&B&8&lo
+        &x&2&7&E&1&A&7&lV&x&2&6&D&E&9&E&li&x&2&6&D&C&9&6&lp &x&2&6&D&8&8&4&l3&x&2&6&D&5&7&C&l0&x&2&6&D&3&7&3&ld'
+      lore:
+      - '§l§x§E§E§7§0§2§7I§x§E§A§6§7§2§7n§x§E§6§5§E§2§7c§x§E§2§5§5§2§7l§x§D§F§4§D§2§6u§x§D§B§4§4§2§6y§x§D§7§3§B§2§6e§x§D§3§3§2§2§6:'
+      - §l§x§E§E§7§0§2§7X§x§E§D§6§D§2§71§x§E§B§6§A§2§7 §x§E§A§6§7§2§7R§x§E§9§6§4§2§7a§x§E§7§6§1§2§7n§x§E§6§5§D§2§7g§x§E§5§5§A§2§7o§x§E§3§5§7§2§7
+        §x§E§2§5§4§2§7V§x§E§1§5§1§2§7i§x§D§F§4§E§2§6p§x§D§E§4§B§2§6 §x§D§C§4§8§2§6T§x§D§B§4§5§2§6e§x§D§A§4§2§2§6m§x§D§8§3§E§2§6p§x§D§7§3§B§2§6o§x§D§6§3§8§2§6r§x§D§4§3§5§2§6a§x§D§3§3§2§2§6l
+      - '<b><gradient:#EE7027:#D33226>Duracion Del Rango: 30 Dias</gradient></b>'
+    win-commands:
+    - lp user %player% parent addtemp vip 30d
+    broadcast: false
+    percentage: 100.0
+    win-limits: 50
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+        virtual: false
+        broadcast: false
+        commands: []
+    win-items:
+      '0':
+        material: custom:lime_dye
